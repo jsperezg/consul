@@ -1,0 +1,35 @@
+zh-CN:
+  activerecord:
+    models:
+      activity:
+        other: "活动"
+      budget:
+        other: "预算"
+      budget/investment:
+        other: "投资"
+      budget/investment/milestone:
+        other: "里程碑"
+      comment:
+        other: "意见"
+      debate:
+        other: "讨论"
+      tag:
+        other: "标签"
+      user:
+        other: "用户"
+      moderator:
+        other: "版主"
+      administrator:
+        other: "管理员"
+      valuator:
+        other: "评价者"
+      valuator_group:
+        other: "评价小组"
+      manager:
+        other: "经理"
+      newsletter:
+        other: "时事通讯"
+      vote:
+        other: "投票"
+      organization:
+        other: "组织"
