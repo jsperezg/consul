@@ -33,3 +33,40 @@ zh-CN:
         other: "投票"
       organization:
         other: "组织"
+      poll/booth:
+        other: "摊位"
+      poll/officer:
+        other: "官员"
+      proposal:
+        other: "公民提议"
+      spending_proposal:
+        other: "支出建议"
+      site_customization/page:
+        other: 自定义页面
+      site_customization/image:
+        other: 自定义图片
+      site_customization/content_block:
+        other: 自定义内容模块
+      legislation/process:
+        other: "进程"
+      legislation/draft_versions:
+        other: "草稿版本"
+      legislation/draft_texts:
+        other: "草稿"
+      legislation/questions:
+        other: "问题"
+      legislation/question_options:
+        other: "问题选项"
+      legislation/answers:
+        other: "答案"
+      documents:
+        other: "文件"
+      images:
+        other: "图片"
+      topic:
+        other: "主题"
+      poll:
+        other: "民意调查"
+    attributes:
+      budget:
+        name: "名字"
