@@ -19,9 +19,43 @@ fa:
         evaluate: ارزیابی
     budget_investments:
       index:
+        headings_filter_all: همه سرفصلها
         filters:
+          valuation_open: بازکردن
           valuating: تحت ارزیابی
           valuation_finished: ' اتمام ارزیابی '
         assigned_to: "اختصاص یافته به %{valuator}"
+        title: پروژه سرمایه گذاری
+        edit: ویرایش پرونده
+        valuators_assigned:
+          one: اختصاص ارزیاب 
+          other: "اختصاص ارزیاب ها%{count}"
+        no_valuators_assigned: بدون  تعیین ارزیاب
+        table_id: شناسه
+        table_title: عنوان
+        table_heading_name: عنوان سرفصل
+        table_actions: اقدامات
       show:
+        back: برگشت
+        title: پروژه سرمایه گذاری
+        info: اطلاعات نویسنده
         by: ارسال شده توسط
+        sent: ارسال شده توسط
+        heading: سرفصل
+        dossier: پرونده
+        edit_dossier: ویرایش پرونده
+        price: قیمت
+        price_first_year: هزینه در طول سال اول
+        feasibility: "امکان پذیری\n"
+        feasible: امکان پذیر
+        unfeasible: غیر قابل پیش بینی
+        undefined: تعریف نشده
+        valuation_finished: ' اتمام ارزیابی '
+        duration: دامنه زمانی
+        responsibles: مسئولین
+        assigned_admin: مدیر اختصاصی
+        assigned_valuators: اختصاص ارزیاب ها
+      edit:
+        dossier: پرونده
+        price_html: "قیمت%{currency}"
+        feasibility: "امکان پذیری\n"
