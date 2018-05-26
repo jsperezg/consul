@@ -95,8 +95,16 @@ fa:
         blank_dates: تاریخ خالی است.
       destroy:
         success_notice: بودجه با موفقیت حذف شد.
+        unable_notice: شما نمی توانید یک بودجه را اختصاص داده شده را از بین ببرید.
+      new:
+        title: بودجه مشارکت جدید
+      show:
+        groups:
+          one: 1 گروه بندی بودجه
+          other: " گروه بندی بودجه%{count}"
       form:
         group: نام گروه
+        no_groups: هیچ گروهی ایجاد نشده است. هر کاربر تنها در یک گروه  میتواند رای دهد.
         add_group: افزودن گروه جدید
         create_group: ایجاد گروه
         edit_group: ویرایش گروه
@@ -105,7 +113,10 @@ fa:
         add_heading: اضافه کردن سرفصل
         amount: مقدار
         population: "جمعیت (اختیاری)"
+        population_help_text: "این داده ها  منحصرا برای محاسبه آمار شرکت استفاده شده است"
         save_heading: ذخیره سرفصل
+        no_heading: این گروه هیچ عنوان مشخصی ندارد
+        table_heading: سرفصل
         table_amount: مقدار
         table_population: جمعیت
       winners:
