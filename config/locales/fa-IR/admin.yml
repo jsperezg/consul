@@ -316,6 +316,8 @@ fa:
         update:
           notice: 'فرآیند با موفقیت بروز رسانی شد.<a href="%{link}"> برای بازدید کلیک کنید</a>'
           error: فرایند بروز رسانی نشد
+        destroy:
+          notice: فرآیند با موفقیت حذف شد.
         edit:
           back: برگشت
           submit_button: ذخیره تغییرات
@@ -331,16 +333,24 @@ fa:
           start: شروع
           end: پایان
           use_markdown: برای قالب کردن متن از Markdown استفاده کنید
+          title_placeholder: عنوان فرایند
+          summary_placeholder: خلاصه توضیحات
+          description_placeholder: اضافه کردن شرح فرآیند
+          additional_info_placeholder: افزودن اطلاعات اضافی که در نظر شما مفید است
         index:
           create: فرآیند جدید
           delete: حذف
+          title: فرآیندهای قانونی
           filters:
             open: بازکردن
             next: بعدی
+            past: گذشته
             all: همه
         new:
           back: برگشت
+          submit_button: فرآیند را ایجاد کنید
         process:
+          title: "فرآیند\n"
           comments: توضیحات
           status: وضعیت ها
           creation_date: تاریخ ایجاد
@@ -356,6 +366,8 @@ fa:
         index:
           title: طرح های پیشنهادی
           back: برگشت
+        form:
+          header_information: اطلاعات سرصفحه
       draft_versions:
         edit:
           back: برگشت
