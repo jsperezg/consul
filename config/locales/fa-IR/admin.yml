@@ -119,20 +119,27 @@ fa:
         table_heading: سرفصل
         table_amount: مقدار
         table_population: جمعیت
+        population_info: "فیلد جمع آوری بودجه برای اهداف آماری در انتهای بودجه برای نشان دادن  هر بخش که نشان دهنده منطقه با جمعیتی است که رای داده است. فیلد اختیاری است، بنابراین اگر آن را خالی بگذارید اعمال نخواهد شد."
+        max_votable_headings: "حداکثر تعداد عناوین که کاربر می تواند رأی دهد"
       winners:
         calculate: محاسبه سرمایه گذاری های برنده
+        calculated: برندگان در حال محاسبه می باشند، ممکن است یک دقیقه طول بکشد.
     budget_phases:
       edit:
         start_date: "تاریخ شروع\n"
         end_date: تاریخ پایان
         summary: خلاصه
+        summary_help_text: این متن به کاربر در مورد فاز اطلاع می دهد. برای نشان دادن آن حتی اگر فاز فعال نیست، کادر انتخاب را در زیر انتخاب کنید
         description: توضیحات
+        description_help_text: هنگامی که فاز فعال است، این متن در هدر ظاهر می شود
         enabled: فاز فعال
+        enabled_help_text: این مرحله در زمانبندی فازهای بودجه عمومی و همچنین برای هر هدف دیگر فعال خواهد بود
         save_changes: ذخیره تغییرات
     budget_investments:
       index:
         heading_filter_all: همه سرفصلها
         administrator_filter_all: همه مدیران
+        valuator_filter_all: همه ارزیابان
         tags_filter_all: همه برچسب ها
         advanced_filters: فیلترهای پیشرفته
         placeholder: جستجو در پروژه ها
