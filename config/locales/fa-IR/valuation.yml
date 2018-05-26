@@ -67,12 +67,14 @@ fa:
         undefined_feasible: انتظار
         feasible_explanation_html: توضیح امکان سنجی 
         valuation_finished: ' اتمام ارزیابی '
+        valuation_finished_alert: "آیا مطمئن هستید که میخواهید این گزارش را به عنوان تکمیل علامتگذاری کنید؟ اگر شما آن را انجام دهید، دیگر نمی تواند تغییر کند."
         not_feasible_alert: "بلافاصله ایمیل به نویسنده این پروژه با گزارش غیرقابل پیش بینی ارسال خواهد شد."
         duration_html: دامنه زمانی
         save: ذخیره تغییرات
       notice:
         valuate: "پرونده به روز شد"
       valuation_comments: ارزیابی نظرات
+      not_in_valuating_phase: سرمایه گذاری تنها زمانی می تواند ارزیابی شود که بودجه در مرحله ارزیابی است، 
     spending_proposals:
       index:
         geozone_filter_all: تمام مناطق
