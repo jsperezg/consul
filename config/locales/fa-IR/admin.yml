@@ -339,8 +339,67 @@ fa:
       manager:
         add: اضافه کردن
         delete: حذف
-    polls:
+    administrators:
+      index:
+        name: نام
+        email: پست الکترونیکی
+        no_administrators: هیچ مدیری وجود ندارد
+      administrator:
+        add: اضافه کردن
+        delete: حذف
+    emails_download:
+      index:
+        title: دانلود ایمیل
+        download_segment: دانلود آدرسهای ایمیل
+        download_emails_button: ' دانلود لیست ایمیل ها '
+    valuators:
+      index:
+        name: نام
+        email: پست الکترونیکی
+        description: توضیحات
+        group: "گروه"
+      valuator:
+        delete: حذف
+      summary:
+        finished_count: به پایان رسید
+        total_count: "جمع\n"
+        cost: "هزینه\n"
       show:
+        description: "شرح"
+        email: "پست الکترونیکی"
+        group: "گروه"
+        no_description: "بدون شرح"
+        no_group: "بدون گروه"
+    poll_officer_assignments:
+      index:
+        table_name: "نام"
+        table_email: "پست الکترونیکی"
+      by_officer:
+        date: "تاریخ"
+    poll_shifts:
+      new:
+        date: "تاریخ"
+        search_officer_button: جستجو
+        table_email: "پست الکترونیکی"
+        table_name: "نام"
+    poll_booth_assignments:
+      show:
+        location: "محل"
+        results: "نتایج"
+        date: "تاریخ"
+        count_by_system: "رای (اتوماتیک)"
+        total_system: رای کل (اتوماتیک)
+      index:
+        table_name: "نام"
+        table_location: "محل"
+    polls:
+      index:
+        name: "نام"
+        dates: "تاریخ"
+      new:
+        show_results: "مشاهده نتایج"
+      show:
+        questions_tab: سوالات
         questions_title: "فهرست پرسش ها"
         table_title: "عنوان"
       flash:
@@ -468,7 +527,10 @@ fa:
           valuation_open: بازکردن
           all: همه
       show:
+        back: برگشت
+        classification: طبقه بندی
         edit: ویرایش
+        edit_classification: ویرایش طبقه بندی
         by: "توسط\n"
         sent: "ارسال شد\n"
         geozone: دامنه
@@ -493,8 +555,14 @@ fa:
     signature_sheets:
       author: نویسنده
       name: نام
+      show:
+        author: نویسنده
     stats:
       show:
+        summary:
+          comments: توضیحات
+          debates: مباحثه
+          proposals: طرح های پیشنهادی
         polls: نظرسنجی
       polls:
         table:
@@ -538,6 +606,7 @@ fa:
           delete: حذف
           image: تصویر
         update:
+          notice: تصویر با موفقیت به روز رسانی شد
           error: تصویر قابل ارتقا نیست.
         destroy:
           notice: تصویر با موفقیت حذف شد.
