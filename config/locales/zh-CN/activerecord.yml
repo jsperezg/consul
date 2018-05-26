@@ -70,3 +70,10 @@ zh-CN:
     attributes:
       budget:
         name: "名字"
+        description_accepting: "接受阶段的说明"
+        description_reviewing: "审查阶段的说明"
+        description_selecting: "选择阶段的说明"
+        description_valuating: "评估阶段的说明"
+        description_balloting: "投票阶段的说明"
+        description_reviewing_ballots: "审查选票阶段的说明"
+        description_finished: "预算完成后的说明"
