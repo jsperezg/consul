@@ -188,9 +188,11 @@ fa:
         table_feasibility: "امکان پذیری\n"
         table_valuation_finished: "Val. Fin."
         table_selection: "انتخاب شده"
+        table_evaluation: "نشان دادن به ارزیاب ها"
         table_incompatible: "ناسازگار"
       show:
         assigned_admin: سرپرست تعیین شده
+        assigned_valuators: اختصاص ارزیاب ها
         classification: طبقه بندی
         info: "%{budget_name} - گروه: %{group_name} - سرمایه گذاری پروژه %{id}"
         edit: ویرایش
@@ -230,11 +232,15 @@ fa:
         mark_as_incompatible: علامت گذاری به عنوان ناسازگار
         selection: انتخاب
         mark_as_selected: علامت گذاری به عنوان انتخاب شده
+        assigned_valuators: ارزیاب ها
         select_heading: انتخاب عنوان
         submit_button: به روز رسانی
+        user_tags: ' برچسب اختصاص داده شده به کاربر'
         tags: برچسب ها
+        tags_placeholder: "برچسبهایی را که میخواهید با کاما (،) جدا کنید"
         undefined: تعریف نشده
         user_groups: "گروه ها"
+      search_unfeasible: جستجو غیر قابل انجام است
     milestones:
       index:
         table_id: "شناسه"
@@ -243,6 +249,7 @@ fa:
         table_publication_date: "تاریخ انتشار"
         table_actions: "اقدامات"
         delete: "حذف نقطه عطف"
+        no_milestones: "نقاط قوت را مشخص نکرده اید"
         image: "تصویر"
         show_image: "نمایش تصویر"
         documents: "اسناد"
@@ -303,6 +310,12 @@ fa:
         title: فعالیت های کاربر (%{user})
     legislation:
       processes:
+        create:
+          notice: 'فرآیند با موفقیت ایجاد شد.<a href="%{link}"> برای بازدید کلیک کنید</a>'
+          error: فرایند ایجاد نشد
+        update:
+          notice: 'فرآیند با موفقیت بروز رسانی شد.<a href="%{link}"> برای بازدید کلیک کنید</a>'
+          error: فرایند بروز رسانی نشد
         edit:
           back: برگشت
           submit_button: ذخیره تغییرات
@@ -312,8 +325,12 @@ fa:
         form:
           enabled: فعال
           process: "روند\n"
+          debate_phase: فاز بحث
+          allegations_phase: فاز تایید
+          proposals_phase: ' فاز طرحها'
           start: شروع
           end: پایان
+          use_markdown: برای قالب کردن متن از Markdown استفاده کنید
         index:
           create: فرآیند جدید
           delete: حذف
