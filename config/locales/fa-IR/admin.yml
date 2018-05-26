@@ -13,6 +13,7 @@ fa:
       unmark_featured: برداشتن علامتگذاری برجسته
       edit: ویرایش
       configure: پیکربندی
+      delete: حذف
     banners:
       index:
         title: آگهی ها
@@ -495,6 +496,31 @@ fa:
     stats:
       show:
         polls: نظرسنجی
+      polls:
+        table:
+          question_name: سوال
+    tags:
+      create: ایجاد موضوع
+      destroy: از بین بردن موضوع
+      index:
+        add_tag: اضافه کردن یک  پیشنهاد جدید
+        title: موضوعات پیشنهادی
+        topic: موضوع
+    users:
+      columns:
+        name: نام
+        email: پست الکترونیکی
+        document_number: شماره سند
+        verification_level: سطح امنیتی
+      index:
+        title: کاربر
+        no_users: هیچ کاربری وجود ندارد.
+      search:
+        placeholder: جستجوی کاربر توسط ایمیل و نام یا شماره سند 
+        search: جستجو
+    verifications:
+      index:
+        phone_not_given: تلفن داده نشده
     site_customization:
       content_blocks:
         form:
@@ -511,7 +537,34 @@ fa:
           update: به روز رسانی
           delete: حذف
           image: تصویر
+        update:
+          error: تصویر قابل ارتقا نیست.
+        destroy:
+          notice: تصویر با موفقیت حذف شد.
+          error: تصویر حذف نشد
       pages:
+        create:
+          notice: صفحه با موفقیت ایجاد شد
+          error: صفحه ایجاد نشد
+        update:
+          notice: صفحه با موفقیت به روز رسانی شد
+          error: صفحه قابل ارتقا نیست.
+        destroy:
+          notice: صفحه با موفقیت حذف شد.
+        edit:
+          title: ویرایش %{page_title}
+        errors:
+          form:
+            error: خطا
+        form:
+          options: "گزینه ها\n"
+        index:
+          create: ایجاد صفحه جدید
+          delete: حذف صفحه
+          title: صفحات سفارشی
+          see_page: دیدن صفحه
+        new:
+          title: ایجاد صفحه سفارشی جدید
         page:
           created_at: "ایجاد شده در\n"
           status: وضعیت ها
