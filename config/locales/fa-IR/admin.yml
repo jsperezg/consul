@@ -238,6 +238,7 @@ fa:
     dashboard:
       index:
         back: بازگشت به %{org}
+        title: مدیران
         description: خوش آمدید به پنل مدیریت %{org}.
     debates:
       index:
@@ -257,8 +258,10 @@ fa:
           without_confirmed_hide: انتظار
         title: کاربران پنهان
         user: کاربر
+        no_hidden_users: هیچ کاربر پنهانی وجود ندارد
       show:
         email: 'پست الکترونیکی'
+        hidden_at: 'پنهان در:'
         registered_at: 'ثبت در:'
         title: فعالیت های کاربر (%{user})
     legislation:
@@ -281,7 +284,10 @@ fa:
             open: بازکردن
             next: بعدی
             all: همه
+        new:
+          back: برگشت
         process:
+          comments: توضیحات
           status: وضعیت ها
           creation_date: تاریخ ایجاد
           status_open: بازکردن
@@ -295,11 +301,23 @@ fa:
       proposals:
         index:
           title: طرح های پیشنهادی
+          back: برگشت
       draft_versions:
+        edit:
+          back: برگشت
+          submit_button: ذخیره تغییرات
+        errors:
+          form:
+            error: خطا
         index:
+          title: نسخه های پیش نویس
           create: ایجاد نسخه
           delete: حذف
           preview: پیش نمایش
+        new:
+          back: برگشت
+          title: ایجاد نسخه  جدید
+          submit_button: ایجاد نسخه
         statuses:
           draft: ' پیش نویس'
           published: منتشر شده
@@ -336,17 +354,68 @@ fa:
         title: "مدیرها\n"
         name: نام
         email: پست الکترونیکی
+        no_managers: هیچ مدیری وجود ندارد
       manager:
         add: اضافه کردن
         delete: حذف
+      search:
+        title: 'مدیران: جستجوی کاربر'
+    menu:
+      activity: فعالیت مدیر
+      proposals_topics: موضوعات پیشنهادی
+      budgets: بودجه مشارکتی
+      hidden_comments: نظرات مخفی
+      hidden_debates: بحث های پنهان
+      hidden_proposals: طرح های پنهان
+      hidden_users: کاربران پنهان
+      administrators: مدیران
+      managers: "مدیرها\n"
+      moderators: سردبیرها
+      emails_download: دانلود ایمیل
+      users: کاربران
     administrators:
       index:
+        title: مدیران
         name: نام
         email: پست الکترونیکی
         no_administrators: هیچ مدیری وجود ندارد
       administrator:
         add: اضافه کردن
         delete: حذف
+        restricted_removal: "با عرض پوزش، شما نمی توانید خود را از مدیریت حذف کنید"
+      search:
+        title: "مدیران: جستجوی کاربر"
+    moderators:
+      index:
+        title: سردبیرها
+        name: نام
+        email: پست الکترونیکی
+        no_moderators: هیچ مدیری وجود ندارد
+      moderator:
+        add: اضافه کردن
+        delete: حذف
+      search:
+        title: 'مدیران: جستجوی کاربر'
+    segment_recipient:
+      all_users: "تمام کاربران\n"
+      administrators: مدیران
+      proposal_authors: نویسندگان پیشنهاد
+    newsletters:
+      index:
+        subject: "موضوع\n"
+        segment_recipient: گیرندگان
+        sent: "ارسال شد\n"
+        actions: اقدامات
+        edit: ویرایش
+        delete: حذف
+        preview: پیش نمایش
+      show:
+        send: "ارسال\n"
+        sent_at: ارسال شده توسط
+        subject: "موضوع\n"
+        segment_recipient: گیرندگان
+        from: "از \n"
+        body: محتوای ایمیل
     emails_download:
       index:
         title: دانلود ایمیل
