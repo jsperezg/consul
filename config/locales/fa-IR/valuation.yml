@@ -46,6 +46,7 @@ fa:
         edit_dossier: ویرایش پرونده
         price: قیمت
         price_first_year: هزینه در طول سال اول
+        currency: "€"
         feasibility: "امکان پذیری\n"
         feasible: امکان پذیر
         unfeasible: غیر قابل پیش بینی
@@ -58,4 +59,66 @@ fa:
       edit:
         dossier: پرونده
         price_html: "قیمت%{currency}"
+        price_first_year_html: "هزینه در طول سال اول%{currency}<small>(اختیاری، داده ها عمومی نیستند)</small>"
+        price_explanation_html: توضیح قیمت
         feasibility: "امکان پذیری\n"
+        feasible: امکان پذیر
+        unfeasible: امکان پذیر نیست
+        undefined_feasible: انتظار
+        feasible_explanation_html: توضیح امکان سنجی 
+        valuation_finished: ' اتمام ارزیابی '
+        not_feasible_alert: "بلافاصله ایمیل به نویسنده این پروژه با گزارش غیرقابل پیش بینی ارسال خواهد شد."
+        duration_html: دامنه زمانی
+        save: ذخیره تغییرات
+      notice:
+        valuate: "پرونده به روز شد"
+      valuation_comments: ارزیابی نظرات
+    spending_proposals:
+      index:
+        geozone_filter_all: تمام مناطق
+        filters:
+          valuation_open: بازکردن
+          valuating: تحت ارزیابی
+          valuation_finished: ' اتمام ارزیابی '
+        title: پروژه های سرمایه گذاری برای بودجه مشارکتی
+        edit: ویرایش
+      show:
+        back: برگشت
+        heading: پروژه سرمایه گذاری
+        info: اطلاعات نویسنده
+        association_name: انجمن
+        by: ارسال شده توسط
+        sent: ارسال شده در
+        geozone: دامنه
+        dossier: پرونده
+        edit_dossier: ویرایش پرونده
+        price: قیمت
+        price_first_year: هزینه در طول سال اول
+        currency: "€"
+        feasibility: "امکان پذیری\n"
+        feasible: امکان پذیر
+        not_feasible: امکان پذیر نیست
+        undefined: تعریف نشده
+        valuation_finished: ' اتمام ارزیابی '
+        time_scope: دامنه زمانی
+        internal_comments: نظر داخلی
+        responsibles: مسئولین
+        assigned_admin: مدیر اختصاصی
+        assigned_valuators: اختصاص ارزیاب ها
+      edit:
+        dossier: پرونده
+        price_html: "قیمت%{currency}"
+        price_first_year_html: "هزینه در طول سال اول (%{currency})"
+        currency: "€"
+        price_explanation_html: توضیح قیمت
+        feasibility: "امکان پذیری\n"
+        feasible: امکان پذیر
+        not_feasible: امکان پذیر نیست
+        undefined_feasible: انتظار
+        feasible_explanation_html: توضیح امکان سنجی 
+        valuation_finished: ' اتمام ارزیابی '
+        time_scope_html: دامنه زمانی
+        internal_comments_html: نظر داخلی
+        save: ذخیره تغییرات
+      notice:
+        valuate: "پرونده به روز شد"
