@@ -77,3 +77,13 @@ zh-CN:
         description_balloting: "投票阶段的说明"
         description_reviewing_ballots: "审查选票阶段的说明"
         description_finished: "预算完成后的说明"
+        phase: "阶段"
+        currency_symbol: "货币"
+      budget/investment:
+        heading_id: "标题"
+        title: "标题"
+        description: "说明书"
+        external_url: "链接到附加文档"
+        administrator_id: "管理员"
+        location: "位置(可选)"
+        organization_name: "如果你是以集体/组织的名义或者代表更多的人提出建议，写下它的名字。"
