@@ -324,6 +324,7 @@ de:
         zero: Keine Unterstützung
       votes:
         zero: Keine Bewertungen
+      supports_necessary: "%{number} Unterstützungen benötigt"
       archived: "Dieser Vorschlag wurde archiviert und nicht mehr unterstützt werden."
     show:
       author_deleted: Benutzer gelöscht
@@ -338,6 +339,7 @@ de:
       retired: Vorschlag vom Autor zurückgezogen
       share: Teilen
       send_notification: Benachrichtigung senden
+      no_notifications: "Dieser Vorschlag enthält keine Benachrichtigungen."
       title_video_url: "Externes Video"
       author: Autor
     update:
