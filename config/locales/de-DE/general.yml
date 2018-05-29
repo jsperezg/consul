@@ -379,6 +379,7 @@ de:
       results_menu: "Umfrageergebnisse"
       stats:
         total_votes: "Gesamtanzahl der Bewertungen"
+        votes: "STIMMEN"
         total: "GESAMT"
         valid: "Gültig"
         white: "White votes"
