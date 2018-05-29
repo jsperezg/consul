@@ -325,7 +325,7 @@ de:
             all: Alle
         new:
           back: Zurück
-          title: Erstellen Sie einen neuen kollaborativen Gesetzgebungsprozess
+          title: Erstellen Sie ein neues kollaboratives Gesetzgebungsverfahren
           submit_button: Prozess erstellen
         process:
           title: Prozess
