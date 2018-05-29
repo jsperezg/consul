@@ -177,6 +177,7 @@ de:
     header:
       administration_menu: Admin
       available_locales: Verfügbare Sprachen
+      collaborative_legislation: Gesetzgebungsverfahren
       debates: Diskussionen
       external_link_blog: Blog
       external_link_opendata: Open Data
@@ -345,6 +346,7 @@ de:
   polls:
     all: "Alle"
     no_dates: "kein Datum zugewiesen"
+    dates: "Von %{open_at} bis %{closed_at}"
     index:
       filters:
         current: "Offen"
@@ -546,6 +548,7 @@ de:
     organizations: Organisationen ist es nicht erlaubt abzustimmen
     signin: Anmelden
     signup: Registrierung
+    supports: Unterstützung
     unauthenticated: Sie müssen sich %{signin} oder %{signup}, um fortfahren zu können.
     verified_only: 'Nur verifizierte Benutzer können Vorschläge bewerten: %{verify_account}.'
     verify_account: verifizieren Sie Ihr Konto
