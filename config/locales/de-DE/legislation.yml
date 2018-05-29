@@ -56,7 +56,7 @@ de:
         filters:
           open: Laufende Verfahren
           next: Geplante
-          past: Abgeschlossene
+          past: Vorherige
         no_open_processes: Es gibt keine offenen Verfahren
         no_past_processes: Es gibt keine vergangene Prozesse
         section_header:
