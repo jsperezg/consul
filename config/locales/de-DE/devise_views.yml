@@ -63,7 +63,7 @@ de:
         new_unlock: Haben Sie keine Anweisung zur Entsperrung erhalten?
         signin_with_provider: Melden Sie sich mit %{provider} an
         signup: Sie haben noch kein Benutzerkonto? %{signup_link}
-        signup_link: Anmelden
+        signup_link: Registrieren
     unlocks:
       new:
         email_label: E-Mail
@@ -91,7 +91,7 @@ de:
           cancel: Login abbrechen
           email_label: E-Mail
           organization_signup: Vertreten Sie eine Organisation oder ein Kollektiv? %{signup_link}
-          organization_signup_link: Melden Sie sich hier an
+          organization_signup_link: Registrieren Sie sich hier
           password_confirmation_label: Passwort bestätigen
           password_label: Passwort
           redeemable_code: Bestätigungscode per E-Mail erhalten (optional)
