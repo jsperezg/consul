@@ -165,7 +165,7 @@ de:
       consul_url: https://github.com/consul/consul
       contact_us: Für technische Hilfe bestätigen
       copyright: CONSUL, %{year}
-      description: Die Plattform nutzt %{consul}, welche %{open_source} ist.
+      description: Die Plattform basiert auf %{consul}, einer %{open_source}.
       faq: technische Hilfe
       open_data_title: Open Data
       open_source: Open-Source Software
