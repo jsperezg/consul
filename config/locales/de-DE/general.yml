@@ -290,6 +290,7 @@ de:
       select_order: Sortieren nach
       start_proposal: Vorschlag erstellen
       title: Vorschläge
+      top: Tops der Woche
       top_link_proposals: Die am meisten unterstützten Vorschläge nach Kategorie
       section_header:
         title: Vorschläge
@@ -447,6 +448,8 @@ de:
       proposal:
         see_all: "Alle anzeigen"
     tags_cloud:
+      districts: "Bezirke"
+      districts_list: "Liste der Bezirke"
       categories: "Kategorien"
     target_blank_html: " (Link öffnet im neuen Fenster)"
     unflag: Demarkieren
