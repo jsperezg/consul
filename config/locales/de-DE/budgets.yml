@@ -13,7 +13,7 @@ de:
         voted_info_html: "Sie können Ihre Stimme bis zum Ende dieser Phase jederzeit ändern. <br> Es ist nicht von Nöten, alle verfügbaren Mittel auszugeben."
         zero: Sie haben über keinen Investitionsvorschlag abgestimmt.
       reasons_for_not_balloting:
-        not_logged_in: Sie müssen %{signin} oder %{signup} um fortfahren zu können.
+        not_logged_in: Sie müssen sich %{signin} oder %{signup}, um fortfahren zu können.
         not_verified: Nur verifizierte Benutzer können über eine Investition abstimmen; %{verify_account}.
         organization: Organisationen dürfen nicht abstimmen
         not_selected: Ungewählte Investitionen können nicht unterstützt werden
@@ -64,7 +64,7 @@ de:
           verify_account: "verifizieren Sie Ihr Konto"
           create: "Budgetinvestitionen erstellen"
           sign_in: "anmelden"
-          sign_up: "anmelden"
+          sign_up: "registrieren"
           unfeasible: Undurchführbare Projekte
         orders:
           random: zufällig
