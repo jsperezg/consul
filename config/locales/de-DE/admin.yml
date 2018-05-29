@@ -321,7 +321,7 @@ de:
           filters:
             open: Offen
             next: Nächste
-            past: Vergangenheit
+            past: Vorherige
             all: Alle
         new:
           back: Zurück
