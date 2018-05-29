@@ -201,7 +201,7 @@ de:
       alt: Wählen Sie den Text, den Sie kommentieren möchten und drücken Sie die den Button mit dem Stift.
       text: Um dieses Dokument zu kommentieren, müssen Sie %{sign_in} oder %{sign_up}. Dann wählen Sie den Text aus, den Sie kommentieren möchten und klicken auf den Button mit dem Stift.
       text_sign_in: login
-      text_sign_up: anmelden
+      text_sign_up: registrieren
       title: Wie kann ich dieses Dokument kommentieren?
   locale: Deutsch
   notifications:
@@ -217,20 +217,20 @@ de:
   omniauth:
     facebook:
       sign_in: Mit Facebook anmelden
-      sign_up: Mit Facebook anmelden
+      sign_up: Registrierung mit Facebook
       name: Facebook
     finish_signup:
       title: "Weitere Details"
     google_oauth2:
       sign_in: Anmelden mit Google
-      sign_up: Anmelden mit Google
+      sign_up: Registrierung mit Google
       name: Google
     twitter:
       sign_in: Anmelden mit Twitter
-      sign_up: Anmelden mit Twitter
+      sign_up: Registrierung mit Twitter
       name: Twitter
     info_sign_in: "Anmelden mit:"
-    info_sign_up: "Anmelden mit:"
+    info_sign_up: "Registrieren mit:"
     or_fill: "Oder folgendes Formular ausfüllen:"
   proposals:
     create:
@@ -330,7 +330,7 @@ de:
       comments_tab: Kommentare
       edit_proposal_link: Bearbeiten
       flag: Dieser Vorschlag wurde von verschiedenen Benutzern als unangebracht gemeldet.
-      login_to_comment: Sie müssen %{signin} oder %{signup}, um einen Kommentar zu hinterlassen.
+      login_to_comment: Sie müssen sich %{signin} oder %{signup}, um einen Kommentar zu hinterlassen.
       notifications_tab: Benachrichtigungen
       retired_warning_link_to_explanation: Lesen Sie die Erläuterung, bevor Sie abstimmen.
       retired: Vorschlag vom Autor zurückgezogen
@@ -347,6 +347,8 @@ de:
     index:
       filters:
         current: "Offen"
+        incoming: "Demnächst"
+        expired: "Abgelaufen"
       title: "Umfragen"
       participate_button: "An dieser Umfrage teilnehmen"
       participate_button_incoming: "Weitere Informationen"
@@ -356,14 +358,15 @@ de:
         help: Hilfe zur Bewertung
       section_footer:
         title: Hilfe zur Bewertung
+      no_polls: "Keine offenen Abstimmungen."
     show:
       already_voted_in_web: "Sie haben bereits an der Umfrage teilgenommen. Falls Sie erneut abstimmen, wird Ihre Wahl überschrieben."
       back: Zurück zur Bewertung
-      cant_answer_not_logged_in: "Sie müssen %{signin} oder %{signup} um fortfahren zu können."
+      cant_answer_not_logged_in: "Sie müssen sich %{signin} oder %{signup}, um fortfahren zu können."
       comments_tab: Kommentare
-      login_to_comment: Sie müssen %{signin} oder %{signup} um einen Kommentar hinterlassen zu können.
+      login_to_comment: Sie müssen sich %{signin} oder %{signup}, um einen Kommentar hinterlassen zu können.
       signin: Anmelden
-      signup: Anmelden
+      signup: Registrierung
       cant_answer_verify_html: "Sie müssen %{verify_link}, um zu antworten."
       verify_link: "verifizieren Sie Ihr Konto"
       cant_answer_incoming: "Diese Umfrage hat noch nicht begonnen."
@@ -511,9 +514,9 @@ de:
         title_label: Titel
         verified_only: Um eine private Nachricht zu senden %{verify_account}
         verify_account: verifizieren Sie Ihr Konto
-        authenticate: Sie müssen %{signin} oder %{signup}, um fortfahren zu können.
+        authenticate: Sie müssen sich %{signin} oder %{signup}, um fortfahren zu können.
         signin: anmelden
-        signup: anmelden
+        signup: registrieren
       show:
         receiver: Nachricht gesendet an %{receiver}
     show:
@@ -535,12 +538,12 @@ de:
       see: "Vorschlag anzeigen"
   votes:
     agree: Ich stimme zu
-    comment_unauthenticated: Sie müssen %{signin} oder %{signup}, um abzustimmen.
+    comment_unauthenticated: Sie müssen sich %{signin} oder %{signup}, um abzustimmen.
     disagree: Ich stimme nicht zu
     organizations: Organisationen ist es nicht erlaubt abzustimmen
     signin: Anmelden
-    signup: Anmelden
-    unauthenticated: Sie müssen %{signin} oder %{signup}, um fortfahren zu können.
+    signup: Registrierung
+    unauthenticated: Sie müssen sich %{signin} oder %{signup}, um fortfahren zu können.
     verified_only: 'Nur verifizierte Benutzer können Vorschläge bewerten: %{verify_account}.'
     verify_account: verifizieren Sie Ihr Konto
     spending_proposals:
@@ -549,7 +552,7 @@ de:
       organization: Organisationen ist es nicht erlaubt abzustimmen
       not_voting_allowed: Die Abstimmungsphase ist geschlossen
     budget_investments:
-      not_logged_in: Sie müssen %{signin} oder %{signup}, um fortfahren zu können.
+      not_logged_in: Sie müssen sich %{signin} oder %{signup}, um fortfahren zu können.
       not_verified: Nur verifizierte Benutzer können über ein Investitionsprojekt abstimmen; %{verify_account}.
       organization: Organisationen dürfen nicht abstimmen
       not_voting_allowed: Die Abstimmungsphase ist geschlossen
