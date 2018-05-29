@@ -356,9 +356,9 @@ de:
       participate_button_expired: "Umfrage beendet"
       section_header:
         title: Abstimmung
-        help: Hilfe zur Bewertung
+        help: Hilfe zur Abstimmung
       section_footer:
-        title: Hilfe zur Bewertung
+        title: Hilfe zur Abstimmung
       no_polls: "Keine offenen Abstimmungen."
     show:
       already_voted_in_web: "Sie haben bereits an der Umfrage teilgenommen. Falls Sie erneut abstimmen, wird Ihre Wahl überschrieben."
