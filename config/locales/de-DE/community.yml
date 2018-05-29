@@ -18,7 +18,7 @@ de:
         first_theme: Erstellen Sie das erste Community-Thema
         sub_first_theme: "Um ein Design zu erstellen, müssen Sie %{sign_in} o %{sign_up}."
         sign_in: "Anmelden"
-        sign_up: "Anmelden"
+        sign_up: "registrieren"
       tab:
         participants: Teilnehmer
       sidebar:
