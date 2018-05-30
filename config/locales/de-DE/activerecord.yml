@@ -110,10 +110,10 @@ de:
         heading_id: "Überschrift"
         title: "Titel"
         description: "Beschreibung"
-        external_url: "Link zur weiteren Dokumentation"
+        external_url: "Link zu weiterer Dokumentation"
         administrator_id: "Administrator"
-        location: "Ort (optional)"
-        organization_name: "Kennzeichnen Sie bitte namentlich, wenn Sie einen Vorschlag für ein Kollektiv, einer Organisation oder für mehrere Menschen veröffentlichen"
+        location: "Standort (optional)"
+        organization_name: "Wenn Sie einen Vorschlag im Namen eines Kollektivs/einer Organisation, oder von mehreren Menschen machen, nennen Sie bitte dessen/deren Name/n"
         image: "Vorschlag Bildbeschreibung"
         image_title: "Bildtitel"
       budget/investment/milestone:
