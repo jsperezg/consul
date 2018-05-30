@@ -114,7 +114,7 @@ de:
         administrator_id: "Administrator"
         location: "Standort (optional)"
         organization_name: "Wenn Sie einen Vorschlag im Namen eines Kollektivs/einer Organisation, oder von mehreren Menschen machen, nennen Sie bitte dessen/deren Name/n"
-        image: "Vorschlag Bildbeschreibung"
+        image: "Vorschlag beschreibendes Bild"
         image_title: "Bildtitel"
       budget/investment/milestone:
         title: "Titel"
@@ -142,11 +142,11 @@ de:
         login: "E-Mail oder Benutzername"
         email: "E-Mail"
         username: "Benutzername"
-        password_confirmation: "Passwortbestätigung"
+        password_confirmation: "Bestätigen Sie das Passwort "
         password: "Passwort"
         current_password: "Aktuelles Passwort"
         phone_number: "Telefonnummer"
-        official_position: "Offizielle Position"
+        official_position: "Öffentliches Amt"
         official_level: "Offizielle Ebene"
         redeemable_code: "Bestätigungscode per E-Mail erhalten"
       organization:
