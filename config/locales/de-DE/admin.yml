@@ -13,6 +13,7 @@ de:
       unmark_featured: Markierung aufheben
       edit: Bearbeiten
       configure: Konfigurieren
+      delete: Löschen
     banners:
       index:
         title: Banner
@@ -91,6 +92,7 @@ de:
         actions: Aktionen
         edit_phase: Phase bearbeiten
         active: Aktiv
+        blank_dates: Termine sind leer
       destroy:
         success_notice: Budget erfolgreich gelöscht
       new:
@@ -109,6 +111,8 @@ de:
         heading: Name der Rubrik
         add_heading: Überschrift hinzufügen
         amount: Menge
+        population: "Bevölkerung (optional)"
+        population_help_text: "Diese Daten dienen ausschließlich dazu, die Beteiligungsstatistiken zu berechnen"
         save_heading: Rubrik speichern
         no_heading: Diese Gruppe hat noch keine zugewiesene Rubrik.
         table_heading: Rubrik
