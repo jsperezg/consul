@@ -20,8 +20,8 @@ de:
         one: "Debatte"
         other: "Debatten"
       tag:
-        one: "Kennzeichen"
-        other: "Kennzeichen"
+        one: "Markierung"
+        other: "Markierungen"
       user:
         one: "Benutzer"
         other: "Benutzer"
@@ -38,14 +38,14 @@ de:
         one: "Newsletter"
         other: "Newsletters"
       vote:
-        one: "Wahl"
-        other: "Wahlen"
+        one: "Stimme"
+        other: "Stimmen"
       organization:
         one: "Organisation"
         other: "Organisationen"
       poll/booth:
-        one: "Kabine"
-        other: "Kabinen"
+        one: "Wahlkabine"
+        other: "Wahlkabinen"
       poll/officer:
         one: "Beamter/in"
         other: "Beamte/innen"
