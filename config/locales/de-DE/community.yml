@@ -52,4 +52,4 @@ de:
         recommendation_two: Themen oder Kommentare, die illegale Handlungen beinhalten, werden gelöscht. Auch diejenigen, die die Diskussionen absichtlich sabotieren. Alles andere ist erlaubt.
   topics:
     show:
-      login_to_comment: Sie müssen %{signin} oder %{signup}, um einen Kommentar zu hinterlassen.
+      login_to_comment: Sie müssen sich %{signin} oder %{signup}, um einen Kommentar zu hinterlassen.
