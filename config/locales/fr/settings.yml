@@ -40,8 +40,6 @@ fr:
       spending_proposal_features:
         voting_allowed: Vote sur les propositions d'investissement
       legislation: Législation
-      user:
-        recommendations: Recommandés
       community: Communauté sur les propositions et les investissements
       map: Localisation des propositions et des projets d'investissement
       allow_images: Permettre d'importer et d'afficher des images
