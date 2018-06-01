@@ -203,8 +203,6 @@ nl:
       my_account_link: Mijn account
       my_activity_link: Mijn bijdragen
       open: open
-      open_city_slogan_html: Er zijn steden die rechtstreeks door hun bewoners worden bestuurd, welke <b>discussiëren</b> over de onderwerpen waarover ze zich zorgen maken, welke <b>voorstellen</b> doen om hun leven te verbeteren en <b>zelf</b> beslissen welke daarvan zullen worden uitgevoerd.
-      open_city_title: De gemeente waar u van houdt is de gemeente waarin u meedenkt.
       open_gov: Open bestuur
       proposals: Voorstellen
       poll_questions: Stemmen
@@ -600,18 +598,6 @@ nl:
       unfeasible: Onhaalbare voorstellen kunnen niet worden gesteund
       not_voting_allowed: Stemronde is gesloten
   welcome:
-    debates:
-      description: Voor ontmoetingen en discussies over zaken die ons in onze gemeente aangaan.
-      title: Discussies
-    decide:
-      description: Het publiek besluit over de gesteunde voorstellen.
-      title: U beslist
-    do:
-      description: Als de meerderheid een voorstel steunt zal de gemeenteraad het accepteren als haar eigen, en komt het voor elkaar.
-      title: Het komt voor elkaar
-    proposal:
-      description: Vrije ruimte voor burgerinitiatieven rond de gemeente of stad waarin we willen leven.
-      title: U initieert
     verification:
       i_dont_have_an_account: Ik heb nog geen account
       i_have_an_account: Ik heb al een account
