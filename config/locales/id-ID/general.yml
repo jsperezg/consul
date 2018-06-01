@@ -228,8 +228,6 @@ id:
       my_account_link: Akun saya
       my_activity_link: Aktifitas saya
       open: buka
-      open_city_slogan_html: Ada kota-kota yang diatur langsung oleh penghuninya, yang mana <b>membahas</b> topik-topik yang mereka peduli tentang, <b>mengusulkan</b> ide-ide untuk meningkatkan kehidupan mereka dan <b>memilih</b> di antara mereka sendiri mana yang akan dilakukan.
-      open_city_title: Mencintai kota ini, dan itu akan menjadi sebuah kota yang anda cintai
       open_gov: Pemerintahan terbuka
       proposals: Proposal
       poll_questions: Suara
@@ -590,7 +588,6 @@ id:
       previous_slide: Sebelumnya Meluncur
       next_slide: Selanjutnya Meluncur
     documentation: Dokumentasi tambahan
-    more_info: Informasi lebih lanjut
   social:
     blog: "%{org} Blog"
     facebook: "%{org} Facebook"
@@ -731,18 +728,6 @@ id:
       unfeasible: Tidak layak proyek-proyek investasi tidak dapat didukung
       not_voting_allowed: Tahap memilih ditutup
   welcome:
-    debates:
-      description: Untuk pertemuan, berdiskusi dan berbagi hal-hal yang penting untuk kami di kota kami.
-      title: Perdebatan
-    decide:
-      description: Masyarakat memutuskan apakah ia menerima atau menolak sebagian besar didukung proposal.
-      title: Anda memutuskan
-    do:
-      description: Jika usulan ini diterima oleh mayoritas, Dewan Kota menerima itu sendiri dan itu akan dilakukan.
-      title: Hal itu akan dilakukan
-    proposal:
-      description: Ruang terbuka bagi warga proposal tentang jenis kota yang kita tinggali.
-      title: Anda usulkan
     recommended:
       title: Rekomendasi yang mungkin menarik bagi anda
       debates:
