@@ -220,8 +220,6 @@ es-CL:
       my_account_link: Mi cuenta
       my_activity_link: Mi actividad
       open: abierto
-      open_city_slogan_html: Existen ciudades gobernadas directamente por sus habitantes, que <strong>debaten</strong> sobre temas que les preocupan, <strong>proponen</strong> ideas para mejorar sus vidas y <strong>deciden</strong> entre todas y todos las que se llevan a cabo.
-      open_city_title: La ciudad que quieres será la ciudad que quieras
       open_gov: Gobierno %{open}
       proposals: Propuestas
       poll_questions: Votaciones
@@ -726,17 +724,6 @@ es-CL:
       unfeasible: No se pueden votar propuestas inviables.
       not_voting_allowed: El periodo de votación está cerrado.
   welcome:
-    debates:
-      description: Encontrarnos, debatir y compartir lo que nos parece importante en nuestra ciudad.
-    decide:
-      description: La ciudadanía decide si acepta o rechaza las propuestas más apoyadas.
-      title: Decides
-    do:
-      description: Si la propuesta es aceptada mayoritariamente, el Ayuntamiento la asume como propia y se hace.
-      title: Se hace
-    proposal:
-      description: Espacio abierto para propuestas ciudadanas sobre el tipo de ciudad en el que queremos vivir.
-      title: Propones
     recommended:
       title: Recomendaciones que te pueden interesar
       debates:
