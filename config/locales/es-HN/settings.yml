@@ -39,8 +39,6 @@ es-HN:
       spending_proposal_features:
         voting_allowed: Votaciones sobre propuestas de inversión
       legislation: Legislación
-      user:
-        recommendations: Recomendaciones
       community: Comunidad en propuestas y proyectos de inversión
       map: Geolocalización de propuestas y proyectos de inversión
       allow_images: Permitir subir y mostrar imágenes
