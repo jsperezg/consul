@@ -125,7 +125,7 @@ de:
       comments_title: Kommentare
       edit_debate_link: Bearbeiten
       flag: Diese Diskussion wurde von verschiedenen Benutzern als unangebracht gemeldet.
-      login_to_comment: Sie müssen %{signin} oder %{signup}, um einen Kommentar zu hinterlassen.
+      login_to_comment: Sie müssen sich %{signin} oder %{signup}, um einen Kommentar zu hinterlassen.
       share: Teilen
       author: Autor
     update:
