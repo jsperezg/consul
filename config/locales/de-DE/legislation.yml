@@ -14,7 +14,7 @@ de:
         publish_comment: Kommentar veröffentlichen
       form:
         phase_not_open: Diese Phase ist nicht geöffnet
-        login_to_comment: Sie müssen %{signin} oder %{signup} um einen Kommentar zu hinterlassen.
+        login_to_comment: Sie müssen sich %{signin} oder %{signup}, um einen Kommentar zu hinterlassen.
         signin: Anmelden
         signup: Registrierung
       index:
