@@ -235,8 +235,6 @@ pt-BR:
       my_account_link: Minha conta
       my_activity_link: Minha atividade
       open: aberto
-      open_city_slogan_html: Existem cidades que são governadas diretamente por seus habitantes, que <b>discutem</b> os tópicos que lhes preocupam, <b>propõem</b> ideias para melhorar suas vidas e <b>decidem</b> entre eles mesmos quais serão implementadas. 
-      open_city_title: Ame a cidade e ela se transformará na cidade que você ama.
       open_gov: Governo aberto
       proposals: Propostas
       poll_questions: Votação
@@ -629,7 +627,6 @@ pt-BR:
       previous_slide: Imagem anterior
       next_slide: Próxima imagem
     documentation: Documentação adicional
-    more_info: Mais informações
   social:
     blog: "Blog"
     facebook: "Facebook"
@@ -781,18 +778,6 @@ pt-BR:
         one: "Você só pode apoiar projetos de investimento em %{count} distrito"
         other: "Você só pode apoiar projetos de investimento em %{count} distritos"
   welcome:
-    debates:
-      description: Para encontros, discussões e compartilhamento das coisas que importam para nós em nossa cidade.
-      title: Debates
-    decide:
-      description: O público decide se ele aceita ou rejeita as propostas mais apoiadas.
-      title: Você decide
-    do:
-      description: Se a proposta é aceita pela maioria, a Prefeitura a aceita como dela e a ação é realizada.
-      title: Vai ser feito
-    proposal:
-      description: Espaço aberto para propostas cidadãs sobre o tipo de cidade em que nós queremos viver.
-      title: Sua proposta
     recommended:
       title: Recomendações que podem ser de seu interesse
       debates:
