@@ -191,7 +191,6 @@ de:
       my_account_link: Mein Konto
       my_activity_link: Meine Aktivität
       open: Offen
-      open_city_title: Love the city, and it will become a city you love
       open_gov: Open Government
       proposals: Vorschläge
       poll_questions: Abstimmung
@@ -462,7 +461,6 @@ de:
     orbit:
       previous_slide: Vorherige Folie
       next_slide: Nächste Folie
-    more_info: Weitere Informationen
   social:
     blog: "%{org} Blog"
     facebook: "%{org} Facebook"
@@ -565,15 +563,6 @@ de:
       organization: Organisationen dürfen nicht abstimmen
       not_voting_allowed: Die Abstimmungsphase ist geschlossen
   welcome:
-    debates:
-      title: Diskussionen
-    decide:
-      description: Die Öffentlichkeit entscheidet, ob am meisten unterstützte Vorschläge angenommen oder abgelehnt werden.
-      title: Sie entscheiden
-    do:
-      title: Wird gemacht
-    proposal:
-      title: Ihr Vorschlag
     recommended:
       title: Empfehlungen, die Sie vielleicht interessieren
       debates:
