@@ -40,8 +40,6 @@ val:
       spending_proposal_features:
         voting_allowed: Votacions sobre propostes d'inversió
       legislation: Legislació
-      user:
-        recommendations: Recomanacions
       community: Comunitat en propostes i projectes d'inversió
       map: Geolocalització de propostes y projectes d'inversió
       allow_images: Permetre la pujada i visualització d'imatges
