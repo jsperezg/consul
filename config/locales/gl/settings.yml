@@ -40,8 +40,6 @@ gl:
       spending_proposal_features:
         voting_allowed: Votacións sobre propostas de investimento.
       legislation: Lexislación
-      user:
-        recommendations: Recomendacións
       community: Comunidade de propostas e proxectos de investimento
       map: Xeolocalización de propostas e proxectos de investimento
       allow_images: Permitir subir e amosar imaxes
