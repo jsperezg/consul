@@ -235,8 +235,6 @@ gl:
       my_account_link: A miña conta
       my_activity_link: A miña actividade
       open: aberto
-      open_city_slogan_html: Existen cidades gobernadas directamente polos seus habitantes, que <strong>debaten</strong> sobre temas que os preocupan, <strong>propoñen</strong> ideas para mellorar as súas vidas e <strong>deciden</strong> entre todas e todos as que se levan a cabo. Madrid xa é unha delas.
-      open_city_title: A cidade que queres será a cidade que queiras
       open_gov: Goberno %{open}
       proposals: Propostas
       poll_questions: Votacións
@@ -607,7 +605,6 @@ gl:
       previous_slide: Imaxe anterior
       next_slide: Imaxe seguinte
     documentation: Documentación adicional
-    more_info: Máis información
   social:
     blog: "Blog"
     facebook: "Facebook"
@@ -755,18 +752,6 @@ gl:
       unfeasible: Non se poden votar as propostas inviables
       not_voting_allowed: O período de votación está pechado
   welcome:
-    debates:
-      description: Encontrarnos, debater e compartir o que nos parece importante na nosa cidade.
-      title: Debates
-    decide:
-      description: A cidadanía decide se acepta ou rexeita as propostas máis apoiadas.
-      title: Decides
-    do:
-      description: Se a proposta é aceptada maioritariamente, o Concello asúmea como propia e faise.
-      title: Faise
-    proposal:
-      description: Espazo aberto para propostas cidadás sobre o tipo de cidade na que queremos vivir.
-      title: Propós
     recommended:
       title: Recomendacións que che poden interesar
       debates:
