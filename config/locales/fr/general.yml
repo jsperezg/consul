@@ -235,8 +235,6 @@ fr:
       my_account_link: Mon compte
       my_activity_link: Mon activité
       open: ouvert
-      open_city_slogan_html: Il existe des villes gouvernées directement par leurs habitants qui <b>discutent</b> des sujets dont ils se sentent concernés, <b>proposent</b> des idées pour améliorer leurs vies et <b>décident</b> lesquelles seront mises en oeuvre. Madrid est déjà l'une de ces villes.
-      open_city_title: Aimez la ville, et elle deviendra la ville que vous aimez
       open_gov: Gouvernement ouvert
       proposals: Propositions
       poll_questions: Votes
@@ -607,7 +605,6 @@ fr:
       previous_slide: Page précédente
       next_slide: Page suivante
     documentation: Documentation supplémentaire
-    more_info: Plus d'informations
   social:
     blog: "Blog"
     facebook: "Facebook"
@@ -756,18 +753,6 @@ fr:
       unfeasible: Les propositions d'investissement jugées irréalisables ne peuvent être soutenues
       not_voting_allowed: La phase de vote est terminée
   welcome:
-    debates:
-      description: Pour se rencontrer, discuter et partager les idées qui comptent pour notre ville.
-      title: Débats
-    decide:
-      description: Le public décide s'il accepte ou refuse les propositions les plus soutenues.
-      title: Vous décidez
-    do:
-      description: Si la proposition est acceptée par la majorité, la Mairie l'accepte comme étant la sienne et la met en place.
-      title: C'est mis en place
-    proposal:
-      description: Espace ouvert aux propositions sur le type de ville que nous voulons
-      title: Vous proposez
     recommended:
       title: Recommandations qui peuvent vous intéresser
       debates:
