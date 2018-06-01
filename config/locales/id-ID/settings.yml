@@ -40,8 +40,6 @@ id:
       spending_proposal_features:
         voting_allowed: Pemungutan suara pada proyek-proyek investasi
       legislation: Undang-undang
-      user:
-        recommendations: Direkomendasikan
       community: Masyarakat pada proposal dan investasi
       map: Proposal dan anggaran investasi
       allow_images: Mengizinkan unggah dan tampilkan gambar
