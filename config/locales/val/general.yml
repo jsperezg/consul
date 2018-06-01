@@ -234,8 +234,6 @@ val:
       my_account_link: El meu compte
       my_activity_link: La meua activitat
       open: obert
-      open_city_slogan_html: Existeixen ciutats gobernades directament per els seus habitants, que <strong>debateixen</strong> sobre temes que els preocupen, <strong>proposen</strong> idees per a millorar les seues vides i <strong>decideixen</strong> entre totes i tots les que es duen a terme.
-      open_city_title: La ciutat que vols serà la ciutat que voldras
       open_gov: Govern %{open}
       proposals: Propostes
       poll_questions: Votacions
@@ -753,18 +751,6 @@ val:
       unfeasible: No es poden votar propostes inviables
       not_voting_allowed: El període de votació està tancat
   welcome:
-    debates:
-      description: Trobar-nos, debatir i compartir el que ens pareix important en la nostra ciutat.
-      title: Debats
-    decide:
-      description: La ciutadania decideix si accepta o rebutja les propostes més avalades.
-      title: Decideix
-    do:
-      description: Si la proposta es acceptada majoritariament, l'Ajuntament la asumeix com a propia i la du a terme.
-      title: Es fa
-    proposal:
-      description: Espai obert per a propostes ciutadanes sobre el tipus de ciutat en el que volem viure.
-      title: Proposes
     recommended:
       title: Recomanacions que et poden interessar
       debates:
