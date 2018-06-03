@@ -392,6 +392,19 @@ fa:
         errors:
           form:
             error: خطا
+        form:
+          title_html: 'در حال ویرایش<span class="strong">%{draft_version_title}</span>  از روند<span class="strong">%{process_title}</span>'
+          launch_text_editor: راه اندازی ویرایشگر متن
+          close_text_editor: ویرایشگر متن را ببند
+          use_markdown: برای قالب کردن متن از Markdown استفاده کنید
+          hints:
+            final_version: این نسخه به عنوان نتیجه نهایی برای این فرآیند منتشر خواهد شد. نظرات در این نسخه مجاز نیست.
+            status:
+              draft: شما می توانید به عنوان مدیر پیش نمایش را ببینید، کس دیگری نمیتواند آن را ببیند
+              published: برای همه قابل مشاهده است
+          title_placeholder: عنوان پیش نویس را بنویسید
+          changelog_placeholder: تغییرات اصلی را از نسخه قبلی اضافه کنید
+          body_placeholder: نوشتن پیش نویس متن
         index:
           title: نسخه های پیش نویس
           create: ایجاد نسخه
@@ -411,7 +424,17 @@ fa:
           final_version: "نسخه نهایی\n"
           status: وضعیت ها
       questions:
+        create:
+          notice: 'سوال با موفقیت ایجاد شد <a href="%{link}"> برای بازدید کلیک کنید </a>'
+          error: سوال ایجاد نشد
+        update:
+          notice: 'سوال با موفقیت ایجاد شد <a href="%{link}"> برای بازدید کلیک کنید </a>'
+          error: سوال قابل ارتقا نیست.
+        destroy:
+          notice: سوال با موفقیت حذف شد.
         edit:
+          back: برگشت
+          title: "ویرایش%{question_title}"
           submit_button: ذخیره تغییرات
         errors:
           form:
@@ -419,10 +442,14 @@ fa:
         form:
           add_option: اضافه کردن گزینه
           title_placeholder: افزودن عنوان
+          value_placeholder: یک پاسخ بسته را اضافه کنید
         index:
+          back: برگشت
+          title: سوالات مرتبط با این روند
           create: ایجاد سوال
           delete: حذف
         new:
+          back: برگشت
           title: ایجاد سوال جدید
           submit_button: ایجاد سوال
         table:
@@ -445,6 +472,7 @@ fa:
         title: 'مدیران: جستجوی کاربر'
     menu:
       activity: فعالیت مدیر
+      banner: مدیریت آگهی ها
       proposals_topics: موضوعات پیشنهادی
       budgets: بودجه مشارکتی
       hidden_comments: نظرات مخفی
@@ -455,6 +483,23 @@ fa:
       managers: "مدیرها\n"
       moderators: سردبیرها
       emails_download: دانلود ایمیل
+      officials: مقامات
+      organizations: سازمان ها
+      settings: تنظیمات پیکربندی
+      spending_proposals: هزینه های طرح ها
+      stats: آمار
+      site_customization:
+        homepage: صفحه اصلی
+        pages: صفحات سفارشی
+        images: عکس های سفارشی
+        content_blocks: محتوای بلوکهای سفارشی 
+      title_categories: "دسته بندی ها\n"
+      title_moderated_content: کنترل محتویات
+      title_budgets: بودجه ها
+      title_polls: نظر سنجی ها
+      title_profiles: پروفایل
+      title_banners: آگهی ها
+      title_site_customization: سایت سفارشی
       users: کاربران
     administrators:
       index:
