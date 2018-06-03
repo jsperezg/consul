@@ -124,6 +124,7 @@ fa:
       winners:
         calculate: محاسبه سرمایه گذاری های برنده
         calculated: برندگان در حال محاسبه می باشند، ممکن است یک دقیقه طول بکشد.
+        recalculate: "قانون گذاری\n"
     budget_phases:
       edit:
         start_date: "تاریخ شروع\n"
