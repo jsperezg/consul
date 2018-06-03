@@ -799,8 +799,13 @@ fa:
           with_confirmed_hide: تایید
           without_confirmed_hide: انتظار
         title: طرح های پنهان
+        no_hidden_proposals: پیشنهادات مخفی وجود ندارد.
     settings:
+      flash:
+        updated: ارزش به روز شد
       index:
+        banners: سبک بنر
+        banner_imgs: تصاویر بنر
         update_setting: به روز رسانی
         feature_flags: ویژگی ها
         features:
