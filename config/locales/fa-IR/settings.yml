@@ -1,9 +1,30 @@
 fa:
   settings:
+    comments_body_max_length: "حداکثر طول نظرات "
+    official_level_1_name: "سطح ۱ مقام عمومی"
+    official_level_2_name: "سطح ۲ مقام عمومی"
+    official_level_3_name: "سطح ۳ مقام عمومی"
+    official_level_4_name: "سطح ۴ مقام عمومی"
+    official_level_5_name: "سطح ۵ مقام عمومی"
+    max_ratio_anon_votes_on_debates: "حداکثر نسبت آرا ناشناس در هر بحث"
     twitter_hashtag: "هشتگرد توییتر"
+    url: "آدرس اصلی"
+    org_name: "سازمان"
+    place_name: "محل"
     feature:
+      budgets: بودجه مشارکتی
+      twitter_login: ورود توییتر
+      facebook_login: ورود فیس بوک
+      google_login: ورود به سایت گوگل
       proposals: طرح های پیشنهادی
       debates: مباحثه
       polls: نظر سنجی ها
+      signature_sheets: محاسبه برنده سرمایه گذاری
+      spending_proposals: پروژه های سرمایه گذاری
+      spending_proposal_features:
+        voting_allowed: رای گیری در پروژه های سرمایه گذاری
     map_zoom: زوم
+    mailer_from_name: نام ایمیل مبدا
+    meta_description: "توضیحات سایت (SEO)"
+    meta_keywords: "واژه هاي كليدي (SEO)"
     min_age_to_participate: حداقل سن مورد نیاز برای شرکت 
