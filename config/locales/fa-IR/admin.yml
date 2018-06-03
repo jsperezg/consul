@@ -807,9 +807,12 @@ fa:
         banners: سبک بنر
         banner_imgs: تصاویر بنر
         no_banners_images: ' بنربدون تصویر'
+        no_banners_styles: هیچ سبک بنری نیست
+        title: تنظیمات پیکربندی
         update_setting: به روز رسانی
         feature_flags: ویژگی ها
         features:
+          enabled: "ویژگی فعال شده"
           enable: "فعال کردن"
           disable: "غیر فعال کردن"
         map:
