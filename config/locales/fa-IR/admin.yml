@@ -787,6 +787,8 @@ fa:
         title: سازمان ها
         verified: تایید
         pending: انتظار
+      search:
+        title: جستجو سازمان ها
     proposals:
       index:
         filter: فیلتر
@@ -812,10 +814,13 @@ fa:
         button: جستجو
       poll_questions_search:
         button: جستجو
+        placeholder: جستجو پرسش های نظرسنجی
       proposal_search:
         button: جستجو
+        placeholder: پیشنهادات را با عنوان، کد، توضیحات یا سوال جستجو کنید
       spending_proposal_search:
         button: جستجو
+        placeholder: جستجو پیشنهادات هزینه با عنوان یا توضیحات
       user_search:
         button: جستجو
         placeholder: جستجوی کاربر توسط ایمیل
@@ -839,11 +844,25 @@ fa:
           valuating: تحت ارزیابی
           valuation_finished: ' اتمام ارزیابی '
           all: همه
+        title: پروژه های سرمایه گذاری برای بودجه مشارکتی
+        assigned_admin: سرپرست تعیین شده
+        no_admin_assigned: بدون  تعیین مدیر
+        no_valuators_assigned: بدون  تعیین ارزیاب
+        summary_link: "خلاصه پروژه سرمایه گذاری"
+        valuator_summary_link: "خلاصه ارزیابی"
+        feasibility:
+          feasible: "امکان پذیر %{price}\n"
+          not_feasible: "امکان پذیر نیست"
+          undefined: "تعریف نشده"
       show:
+        assigned_admin: سرپرست تعیین شده
+        assigned_valuators: اختصاص ارزیاب ها
         back: برگشت
         classification: طبقه بندی
+        heading: "پروژه سرمایه گذاری%{id}"
         edit: ویرایش
         edit_classification: ویرایش طبقه بندی
+        association_name: انجمن
         by: "توسط\n"
         sent: "ارسال شد\n"
         geozone: دامنه
@@ -856,8 +875,11 @@ fa:
         assigned_valuators: ارزیاب ها
         submit_button: به روز رسانی
         tags: برچسب ها
+        tags_placeholder: "برچسبهایی را که میخواهید با کاما (،) جدا کنید"
         undefined: تعریف نشده
       summary:
+        title: خلاصه ای برای پروژه های سرمایه گذاری
+        title_proposals_with_supports: خلاصه ای برای پروژه های سرمایه گذاری با پشتیبانی
         geozone_name: دامنه
         finished_and_feasible_count: تمام شده و امکان پذیر است
         finished_and_unfeasible_count: تمام شده  و غیر قابل پیش بینی 
@@ -876,6 +898,7 @@ fa:
         external_code: ویدیوهای خارجی
     signature_sheets:
       author: نویسنده
+      created_at: ' ایجاد تاریخ'
       name: نام
       show:
         author: نویسنده
@@ -885,6 +908,8 @@ fa:
           comments: توضیحات
           debates: مباحثه
           proposals: طرح های پیشنهادی
+          votes: کل رای
+        proposal_notifications: اطلاعیه های پیشنهاد
         incomplete_verifications: تأیید ناقص
         polls: نظرسنجی
       direct_messages:
@@ -938,9 +963,14 @@ fa:
         form:
           content_blocks_information: اطلاعات در مورد محتوای بلوک
           content_block_about: شما می توانید بلوک های محتوای HTML را در هدر یا پایین صفحه CONSUL خود وارد کنید.
+          content_block_top_links_html: "<strong> بلوکهای سربرگ (پیوندهای بالا) </ strong> بلوکهای پیوند هستند که باید این فرم را داشته باشند:"
+          content_block_footer_html: "<strong> بلوک های پاورقی </ strong> می تواند هر فرمت داشته باشد و می تواند برای جاوااسکریپت، CSS یا سفارشی HTML استفاده شود."
         create:
           notice: بلوک محتوا با موفقیت ایجاد شد
           error: بلوک محتوا ایجاد نشد
+        update:
+          notice: بلوک محتوا با موفقیت به روز شد
+          error: بلوک محتوا را نمی توان به روز کرد
         destroy:
           notice: بلوک محتوا با موفقیت حذف شد.
         edit:
