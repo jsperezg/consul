@@ -1,0 +1,6 @@
+fa:
+  devise_views:
+    confirmations:
+      new:
+        email_label: پست الکترونیکی
+        submit: ارسال مجدد دستورالعمل 
