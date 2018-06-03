@@ -577,21 +577,31 @@ fa:
         segment_recipient: گیرندگان
         from: "از \n"
         body: محتوای ایمیل
+        send_alert: آیا مطمئن هستید که میخواهید این خبرنامه را به%{n} کاربران ارسال کنید؟
     emails_download:
       index:
         title: دانلود ایمیل
         download_segment: دانلود آدرسهای ایمیل
+        download_segment_help_text: دانلود در قالب CSV
         download_emails_button: ' دانلود لیست ایمیل ها '
     valuators:
       index:
+        title: ارزیاب ها
         name: نام
         email: پست الکترونیکی
         description: توضیحات
+        no_description: "بدون توضیح\n"
+        no_valuators: هیچ ارزشیابی وجود ندارد
+        valuator_groups: "گروهای ارزيابي"
         group: "گروه"
+        no_group: "هیچ گروهی وجود ندارد"
       valuator:
         delete: حذف
       summary:
+        valuator_name: ارزیاب
+        finished_and_feasible_count: تمام شده و امکان پذیر است
         finished_count: به پایان رسید
+        in_evaluation_count: در ارزیابی
         total_count: "جمع\n"
         cost: "هزینه\n"
       show:
@@ -600,15 +610,38 @@ fa:
         group: "گروه"
         no_description: "بدون شرح"
         no_group: "بدون گروه"
+    valuator_groups:
+      index:
+        title: "گروهای ارزيابي"
+        new: "ایجاد گروه  ارزيابها"
+        name: "نام"
+        members: "اعضا"
+    poll_officers:
+      index:
+        title: افسران نظرسنجی
+      officer:
+        add: اضافه کردن
+        delete: حذف موقعیت
+        name: نام
+        email: پست الکترونیکی
+        entry_name: افسر
+      search:
+        email_placeholder: جستجوی کاربر توسط ایمیل
+        search: جستجو
+        user_not_found: کاربری یافت نشد
     poll_officer_assignments:
       index:
+        officers_title: "فهرست افسران"
+        no_officers: "هیچ افسران اختصاص یافته به این نظرسنجی وجود دارد."
         table_name: "نام"
         table_email: "پست الکترونیکی"
       by_officer:
         date: "تاریخ"
+        booth: "غرفه"
     poll_shifts:
       new:
         date: "تاریخ"
+        remove_shift: "حذف"
         search_officer_button: جستجو
         table_email: "پست الکترونیکی"
         table_name: "نام"
@@ -829,9 +862,11 @@ fa:
         index:
           delete: حذف بلوک
         content_block:
+          body: بدنه
           name: نام
       images:
         index:
+          title: صفحات سفارشی
           update: به روز رسانی
           delete: حذف
           image: تصویر
@@ -872,3 +907,9 @@ fa:
           status_draft: ' پیش نویس'
           status_published: منتشر شده
           locale: زبان
+    homepage:
+      title: صفحه اصلی
+      edit:
+        submit_header: ذخیره سرفصل
+        card_title: ویرایش کارت
+        submit_card: ذخیره کارت
