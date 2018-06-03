@@ -489,11 +489,17 @@ fa:
       newsletters: خبرنامه ها
       emails_download: دانلود ایمیل
       valuators: ارزیاب ها
+      poll_officers: افسران نظرسنجی
+      polls: نظر سنجی ها
+      poll_booths: محل غرفه ها
+      poll_booth_assignments: تکالیف غرفه
+      poll_shifts: مدیریت تغییرات
       officials: مقامات
       organizations: سازمان ها
       settings: تنظیمات پیکربندی
       spending_proposals: هزینه های طرح ها
       stats: آمار
+      signature_sheets: ورق امضا
       site_customization:
         homepage: صفحه اصلی
         pages: صفحات سفارشی
@@ -506,6 +512,7 @@ fa:
       title_profiles: پروفایل
       title_banners: آگهی ها
       title_site_customization: سایت سفارشی
+      legislation: قانون همکاری
       users: کاربران
     administrators:
       index:
@@ -534,17 +541,37 @@ fa:
       all_users: "تمام کاربران\n"
       administrators: مدیران
       proposal_authors: نویسندگان پیشنهاد
+      investment_authors: نویسندگان سرمایه گذاری در بودجه فعلی
+      feasible_and_undecided_investment_authors: "نویسنده برخی از سرمایه گذاری در بودجه فعلی مطابقت ندارد: [ارزیابی غیر قابل اعتماد به پایان رسید ]"
+      selected_investment_authors: نویسنده سرمایه گذاری انتخاب شده در بودجه فعلی
+      winner_investment_authors: نویسنده سرمایه گذاری برنده در بودجه فعلی
+      not_supported_on_current_budget: کاربرانی که سرمایه گذاری در بودجه فعلی را پشتیبانی نمی کنند
+      invalid_recipients_segment: "بخش کاربر گیرنده نامعتبر است"
     newsletters:
+      create_success: خبرنامه با موفقیت ایجاد شد
+      update_success: خبرنامه با موفقیت به روز رسانی شده است.
+      send_success: خبرنامه با موفقیت ارسال  شد
+      delete_success: خبرنامه  با موفقیت حذف شد.
       index:
+        title: خبرنامه ها
+        new_newsletter: خبرنامه جدید
         subject: "موضوع\n"
         segment_recipient: گیرندگان
         sent: "ارسال شد\n"
         actions: اقدامات
+        draft: ' پیش نویس'
         edit: ویرایش
         delete: حذف
         preview: پیش نمایش
+        empty_newsletters: هیچ خبرنامه برای نشان دادن وجود ندارد
+      new:
+        title: خبرنامه جدید
+      edit:
+        title: ویرایش  خبرنامه
       show:
+        title: پیش نمایش خبرنامه
         send: "ارسال\n"
+        affected_users: (%{n} کاربران تحت تاثیر)
         sent_at: ارسال شده توسط
         subject: "موضوع\n"
         segment_recipient: گیرندگان
