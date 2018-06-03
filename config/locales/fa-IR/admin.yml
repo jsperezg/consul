@@ -659,9 +659,12 @@ fa:
         assignments: "اعمال تغییرات در این نظرسنجی"
     poll_shifts:
       new:
+        add_shift: "اضافه کردن تغییر"
+        shift: "تخصیص"
         date: "تاریخ"
         task: "وظیفه\n"
         edit_shifts: تغییر شیفت ها
+        new_shift: "تغییر جدید"
         remove_shift: "حذف"
         search_officer_button: جستجو
         table_email: "پست الکترونیکی"
@@ -670,18 +673,30 @@ fa:
       show:
         location: "محل"
         officers_list: "لیست افسر  برای این غرفه"
+        no_officers: "هیچ افسران برای این غرفه وجود دارد"
+        recounts: "شمارش مجدد"
+        recounts_list: "لیست را برای این غرفه بازنویسی کنید"
         results: "نتایج"
         date: "تاریخ"
+        count_final: "بازنگری نهایی (توسط افسر)"
         count_by_system: "رای (اتوماتیک)"
         total_system: رای کل (اتوماتیک)
       index:
+        booths_title: "فهرست غرفه"
+        no_booths: "هیچ غرفه ای برای این نظرسنجی وجود ندارد"
         table_name: "نام"
         table_location: "محل"
     polls:
       index:
+        title: "فهرست غرفه"
+        no_polls: "هیچ غرفه ای وجود ندارد."
+        create: "ایجاد نظرسنجی"
         name: "نام"
         dates: "تاریخ"
+        geozone_restricted: "محدود به مناطق"
       new:
+        title: "نظر سنجی جدید"
+        show_results_and_stats: "نتایج و آمار نشان می دهد"
         show_results: "مشاهده نتایج"
       show:
         questions_tab: سوالات
