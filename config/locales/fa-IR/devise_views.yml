@@ -91,12 +91,15 @@ fa:
         delete_form:
           erase_reason_label: دلیل
           info: این عمل قابل لغو نیست لطفا مطمئن شوید که این چیزی است که میخواهید.
+          info_reason: اگر می خواهید، یک دلیل برای ما بنویسید (اختیاری)
           submit: پاک کردن حساب
           title: پاک کردن حساب
         edit:
           current_password_label: رمز ورود فعلی
           edit: ویرایش
           email_label: پست الکترونیکی
+          leave_blank: اگر تمایل ندارید تغییر دهید، خالی بگذارید
+          need_current: ما برای تایید تغییرات نیاز به رمزعبور فعلی داریم
           password_confirmation_label: تأیید رمز عبور جديد
           password_label: رمز عبور جدید
           update_submit: به روز رسانی
@@ -104,6 +107,8 @@ fa:
         new:
           cancel: لغو کردن ورود
           email_label: پست الکترونیکی
+          organization_signup: آیا نماینده یک سازمان یا گروهی هستید؟%{signup_link}
+          organization_signup_link: "اینجا ثبت نام کنید\n"
           password_confirmation_label: تایید رمز عبور
           password_label: رمز عبور
           redeemable_code: کد تایید  از طریق ایمیل دریافت شد.
