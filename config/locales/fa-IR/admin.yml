@@ -885,10 +885,27 @@ fa:
           comments: توضیحات
           debates: مباحثه
           proposals: طرح های پیشنهادی
+        incomplete_verifications: تأیید ناقص
         polls: نظرسنجی
+      direct_messages:
+        title: پیام های مستقیم
+        total: "جمع\n"
+        users_who_have_sent_message: کاربرانی که پیام خصوصی فرستاده اند
+      proposal_notifications:
+        title: اطلاعیه های پیشنهاد
+        total: "جمع\n"
+        proposals_with_notifications: طرح با اعلان ها
       polls:
+        title: وضعیت نظرسنجی ها 
+        all: نظر سنجی ها
+        web_participants: وب سایت شرکت کنندگان
+        total_participants: کل شرکت کنندگان
+        poll_questions: "سوالاتی از نظرسنجی:%{poll}"
         table:
+          poll_name: نظرسنجی
           question_name: سوال
+          origin_web: وب سایت شرکت کنندگان
+          origin_total: کل شرکت کنندگان
     tags:
       create: ایجاد موضوع
       destroy: از بین بردن موضوع
@@ -896,11 +913,14 @@ fa:
         add_tag: اضافه کردن یک  پیشنهاد جدید
         title: موضوعات پیشنهادی
         topic: موضوع
+      name:
+        placeholder: نام موضوع را تایپ کنید
     users:
       columns:
         name: نام
         email: پست الکترونیکی
         document_number: شماره سند
+        roles: نقش ها
         verification_level: سطح امنیتی
       index:
         title: کاربر
@@ -911,15 +931,29 @@ fa:
     verifications:
       index:
         phone_not_given: تلفن داده نشده
+        sms_code_not_confirmed: اس ام اس کد را تایید نکرده است
+        title: تأیید ناقص
     site_customization:
       content_blocks:
         form:
           content_blocks_information: اطلاعات در مورد محتوای بلوک
+          content_block_about: شما می توانید بلوک های محتوای HTML را در هدر یا پایین صفحه CONSUL خود وارد کنید.
+        create:
+          notice: بلوک محتوا با موفقیت ایجاد شد
+          error: بلوک محتوا ایجاد نشد
+        destroy:
+          notice: بلوک محتوا با موفقیت حذف شد.
+        edit:
+          title: ویرایش بلوک محتوا
         errors:
           form:
             error: خطا
         index:
+          create: ایجاد محتوای جدید بلوک
           delete: حذف بلوک
+          title: بلوک های محتوا
+        new:
+          title: ایجاد محتوای جدید بلوک
         content_block:
           body: بدنه
           name: نام
@@ -978,7 +1012,18 @@ fa:
         title: عنوان
         description: توضیحات
         link_text: لینک متن
+        link_url: لینک آدرس
+      feeds:
+        proposals: طرح های پیشنهادی
+        debates: مباحثه
+        processes: "روندها\n"
+      new:
+        header_title: سربرگ جدید
+        submit_header: ایجاد سربرگ
+        card_title: کارت جدید
+        submit_card: ایجاد کارت
       edit:
+        header_title: ویرایش سربرگ
         submit_header: ذخیره سرفصل
         card_title: ویرایش کارت
         submit_card: ذخیره کارت
