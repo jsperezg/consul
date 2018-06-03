@@ -786,9 +786,11 @@ fa:
         search_placeholder: نام و ایمیل یا تلفن شماره
         title: سازمان ها
         verified: تایید
+        verify: تأیید
         pending: انتظار
       search:
         title: جستجو سازمان ها
+        no_results: هیچ سازمان یافت نشد
     proposals:
       index:
         filter: فیلتر
@@ -810,8 +812,10 @@ fa:
     shared:
       booths_search:
         button: جستجو
+        placeholder: جستجوی غرفه با نام
       poll_officers_search:
         button: جستجو
+        placeholder: جستجو افسران نظرسنجی 
       poll_questions_search:
         button: جستجو
         placeholder: جستجو پرسش های نظرسنجی
