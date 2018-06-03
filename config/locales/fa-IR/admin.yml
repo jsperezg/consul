@@ -577,6 +577,7 @@ fa:
         segment_recipient: گیرندگان
         from: "از \n"
         body: محتوای ایمیل
+        body_help_text: چگونگی دیدن ایمیل توسط کاربران
         send_alert: آیا مطمئن هستید که میخواهید این خبرنامه را به%{n} کاربران ارسال کنید؟
     emails_download:
       index:
@@ -596,14 +597,23 @@ fa:
         group: "گروه"
         no_group: "هیچ گروهی وجود ندارد"
       valuator:
+        add: افزودن به ارزیابان
         delete: حذف
+      search:
+        title: 'ارزیابی کنندگان: جستجوی کاربر'
       summary:
+        title: خلاصه ارزشیابی برای پروژه های سرمایه گذاری
         valuator_name: ارزیاب
         finished_and_feasible_count: تمام شده و امکان پذیر است
+        finished_and_unfeasible_count: تمام شده  و غیر قابل پیش بینی 
         finished_count: به پایان رسید
         in_evaluation_count: در ارزیابی
         total_count: "جمع\n"
         cost: "هزینه\n"
+      form:
+        edit_title: "ارزیابی کنندگان: ویرایش ارزیاب"
+        update: "به روزرسانی ارزیابی "
+        updated: " ارزیابی  با موفقیت به روز رسانی شده"
       show:
         description: "شرح"
         email: "پست الکترونیکی"
@@ -616,6 +626,14 @@ fa:
         new: "ایجاد گروه  ارزيابها"
         name: "نام"
         members: "اعضا"
+        no_groups: "هیچ گروه ارزشیابی وجود ندارد"
+      show:
+        title: "گروه ارزیاب ها:%{group}"
+        no_valuators: "هیچ ارزیاب اختصاصی برای این نظرسنجی وجود دارد."
+      form:
+        name: "نام گروه"
+        new: "ایجاد گروه  ارزيابها"
+        edit: "ذخیره  گروه  ارزيابها"
     poll_officers:
       index:
         title: افسران نظرسنجی
@@ -638,9 +656,12 @@ fa:
       by_officer:
         date: "تاریخ"
         booth: "غرفه"
+        assignments: "اعمال تغییرات در این نظرسنجی"
     poll_shifts:
       new:
         date: "تاریخ"
+        task: "وظیفه\n"
+        edit_shifts: تغییر شیفت ها
         remove_shift: "حذف"
         search_officer_button: جستجو
         table_email: "پست الکترونیکی"
