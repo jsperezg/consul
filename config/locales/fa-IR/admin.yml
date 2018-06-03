@@ -472,9 +472,12 @@ fa:
         title: 'مدیران: جستجوی کاربر'
     menu:
       activity: فعالیت مدیر
+      admin: منوی ادمین
       banner: مدیریت آگهی ها
+      poll_questions: سوالات نظرسنجی
       proposals_topics: موضوعات پیشنهادی
       budgets: بودجه مشارکتی
+      geozones: مدیریت geozones
       hidden_comments: نظرات مخفی
       hidden_debates: بحث های پنهان
       hidden_proposals: طرح های پنهان
@@ -482,7 +485,10 @@ fa:
       administrators: مدیران
       managers: "مدیرها\n"
       moderators: سردبیرها
+      emails: ارسال ایمیل
+      newsletters: خبرنامه ها
       emails_download: دانلود ایمیل
+      valuators: ارزیاب ها
       officials: مقامات
       organizations: سازمان ها
       settings: تنظیمات پیکربندی
