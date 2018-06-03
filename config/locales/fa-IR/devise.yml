@@ -15,6 +15,15 @@ fa:
       inactive: "حساب شما هنوز فعال نشده است"
       invalid: "گذرواژه یا %{authentication_keys}نامعتبر است"
       locked: "حساب شما قفل شده است."
+      last_attempt: "تا قبل از اینکه حساب شما مسدود شود، یکبار  دیگر می توانید تلاش کنید."
+      not_found_in_database: "گذرواژه یا %{authentication_keys}نامعتبر است"
+      timeout: "زمان شما منقضی شده است لطفا برای ادامه دوباره وارد شوید"
+      unauthenticated: "برای ادامه باید وارد شوید یا ثبت نام کنید."
+      unconfirmed: "برای ادامه، لطفا روی پیوند تایید که از طریق ایمیل به شما ارسال کردیم کلیک کنید"
     mailer:
       confirmation_instructions:
         subject: "تایید دستورالعمل"
+      reset_password_instructions:
+        subject: "دستورالعمل برای بازنشانی گذرواژه شما"
+      unlock_instructions:
+        subject: " دستورالعمل بازکردن مجدد"
