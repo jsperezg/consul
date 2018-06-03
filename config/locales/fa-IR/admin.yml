@@ -806,6 +806,7 @@ fa:
       index:
         banners: سبک بنر
         banner_imgs: تصاویر بنر
+        no_banners_images: ' بنربدون تصویر'
         update_setting: به روز رسانی
         feature_flags: ویژگی ها
         features:
