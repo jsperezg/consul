@@ -30,3 +30,67 @@ fa:
         info_text: حساب شما به علت تعداد بیشماری از تلاشهای ثبت نام شکست خورده مسدود شده است.
         instructions_text: 'لطفا برای باز کردن قفل حساب خود روی این لینک کلیک کنید:'
         title: حساب شما قفل شده است.
+        unlock_link: باز کردن حساب
+    menu:
+      login_items:
+        login: ورود به برنامه
+        logout: خروج از سیستم
+        signup: ثبت
+    organizations:
+      registrations:
+        new:
+          email_label: پست الکترونیکی
+          organization_name_label: نام سازمان
+          password_confirmation_label: تایید رمز عبور
+          password_label: رمز عبور
+          phone_number_label: شماره تلفن
+          responsible_name_label: نام کامل مسئول گروه
+          responsible_name_note: این شخص نماینده انجمن / گروهی است که اسامی آنها ارائه شده است
+          submit: ثبت
+          title: ثبت نام به عنوان یک سازمان و یا جمعی
+        success:
+          back_to_index: من میفهمم؛ بازگشت به صفحه اصلی
+          instructions_1_html: "<b> ما به زودی با شما تماس خواهیم گرفت </ b> برای تأیید اینکه شما در واقع این گروه را نشان می دهید."
+    passwords:
+      edit:
+        change_submit: تغییر کلمه عبور
+        password_confirmation_label: تایید رمز عبور
+        password_label: رمز عبور جدید
+        title: تغییر کلمه عبور
+      new:
+        email_label: پست الکترونیکی
+        send_submit: ' ارسال دستورالعمل'
+        title: رمز عبور را فراموش کرده اید؟
+    sessions:
+      new:
+        login_label: نام کاربری یا ایمیل
+        password_label: رمز عبور
+        remember_me: مرا به خاطر بسپار
+        submit: ' ورود '
+        title: ورود به برنامه
+    shared:
+      links:
+        login: ' ورود '
+        new_confirmation: دستورالعمل هایی برای فعال کردن حساب کاربری خود دریافت نکرده اید؟
+        new_password: رمز عبور را فراموش کرده اید؟
+        signin_with_provider: ' ثبت نام با %{provider}'
+        signup: حساب کاربری ندارید؟ %{signup_link}
+        signup_link: ثبت نام
+    unlocks:
+      new:
+        email_label: پست الکترونیکی
+        submit: ارسال دستورالعمل بازکردن مجدد
+    users:
+      registrations:
+        edit:
+          edit: ویرایش
+          email_label: پست الکترونیکی
+          password_confirmation_label: تأیید رمز عبور جديد
+          password_label: رمز عبور جدید
+          update_submit: به روز رسانی
+          waiting_for: 'در انتظار تایید:'
+        new:
+          cancel: لغو کردن ورود
+          email_label: پست الکترونیکی
+          title: ثبت
+          username_label: نام کاربری
