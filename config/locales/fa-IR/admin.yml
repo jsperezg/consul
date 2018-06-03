@@ -692,6 +692,13 @@ fa:
       index:
         title: "سوالات"
         create: "ایجاد سوال"
+        table_proposal: "طرح های پیشنهادی"
+        table_question: "سوال"
+      edit:
+        title: "ویرایش پرسش"
+      new:
+        title: "ایجاد سوال"
+        poll_label: "نظرسنجی"
       answers:
         images:
           add_image: "اضافه کردن تصویر"
@@ -736,12 +743,24 @@ fa:
           title: ویدیو جدید
         edit:
           title: ویرایش ویدئو
+    results:
+      result:
+        table_answer: پاسخ
+        table_votes: آرا
+      results_by_booth:
+        booth: غرفه
+        results: نتایج
+        see_results: مشاهده نتایج
     booths:
       index:
         name: "نام"
+        location: "محل"
       new:
         name: "نام"
     officials:
+      index:
+        official_position: موضع رسمی
+        official_level: سطح 
       level_1: سطح 1
       level_2: سطح 2
       level_3: سطح 3
@@ -799,16 +818,26 @@ fa:
         button: جستجو
       user_search:
         button: جستجو
+        placeholder: جستجوی کاربر توسط ایمیل
+      search_results: "جستجو نتایج "
+      no_search_results: "نتیجه ای پیدا نشد.\n"
       actions: اقدامات
       title: عنوان
       description: توضیحات
+      image: تصویر
+      show_image: نمایش تصویر
     spending_proposals:
       index:
         geozone_filter_all: تمام مناطق
         administrator_filter_all: همه مدیران
+        valuator_filter_all: همه ارزیابان
         tags_filter_all: همه برچسب ها
         filters:
           valuation_open: بازکردن
+          without_admin: بدون تعیین مدیر
+          managed: مدیریت شده
+          valuating: تحت ارزیابی
+          valuation_finished: ' اتمام ارزیابی '
           all: همه
       show:
         back: برگشت
@@ -824,13 +853,22 @@ fa:
         undefined: تعریف نشده
       edit:
         classification: طبقه بندی
+        assigned_valuators: ارزیاب ها
         submit_button: به روز رسانی
         tags: برچسب ها
         undefined: تعریف نشده
       summary:
         geozone_name: دامنه
+        finished_and_feasible_count: تمام شده و امکان پذیر است
+        finished_and_unfeasible_count: تمام شده  و غیر قابل پیش بینی 
+        finished_count: به پایان رسید
+        in_evaluation_count: در ارزیابی
+        total_count: "جمع\n"
+        cost_for_geozone: "هزینه\n"
     geozones:
       index:
+        title: Geozone
+        create: ایجاد geozone
         edit: ویرایش
         delete: حذف
       geozone:
@@ -930,6 +968,16 @@ fa:
           locale: زبان
     homepage:
       title: صفحه اصلی
+      header_title: سربرگ
+      no_header: بدون سربرگ
+      create_header: ایجاد سربرگ
+      cards_title: کارتها
+      create_card: ایجاد کارت
+      no_cards: بدون کارت
+      cards:
+        title: عنوان
+        description: توضیحات
+        link_text: لینک متن
       edit:
         submit_header: ذخیره سرفصل
         card_title: ویرایش کارت
