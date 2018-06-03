@@ -669,6 +669,7 @@ fa:
     poll_booth_assignments:
       show:
         location: "محل"
+        officers_list: "لیست افسر  برای این غرفه"
         results: "نتایج"
         date: "تاریخ"
         count_by_system: "رای (اتوماتیک)"
@@ -743,16 +744,32 @@ fa:
           title: ویدیو جدید
         edit:
           title: ویرایش ویدئو
+    recounts:
+      index:
+        title: "شمارش مجدد"
+        no_recounts: "هیچ چیز به حساب نمی آید"
+        table_booth_name: "غرفه"
+        table_total_recount: "کل خواهان (توسط افسر)"
+        table_system_count: "رای (اتوماتیک)"
     results:
+      index:
+        title: "نتایج"
+        no_results: "هیچ نتیجه ای وجود ندارد"
       result:
+        table_whites: "رأی گیری کاملا خالی است"
+        table_nulls: "برگه های نامعتبر"
+        table_total: "کل آراء"
         table_answer: پاسخ
         table_votes: آرا
       results_by_booth:
         booth: غرفه
         results: نتایج
         see_results: مشاهده نتایج
+        title: "نتیجه توسط غرفه"
     booths:
       index:
+        title: "فهرست غرفه"
+        no_booths: "هیچ غرفه ای وجود ندارد."
         add_booth: "اضافه کردن غرفه"
         name: "نام"
         location: "محل"
@@ -776,9 +793,14 @@ fa:
         title: 'مقام: ویرایش کاربر'
       flash:
         official_destroyed: 'جزئیات ذخیره شده: کاربر دیگر رسمی نیست'
+        official_updated: جزئیات رسمی ذخیره شده
       index:
+        title: مقامات
+        no_officials: هیچ مقام رسمی وجود ندارد
+        name: نام
         official_position: موضع رسمی
         official_level: سطح 
+      level_0: رسمی نیست
       level_1: سطح 1
       level_2: سطح 2
       level_3: سطح 3
@@ -786,18 +808,26 @@ fa:
       level_5: سطح 5
       search:
         edit_official: ویرایش رسمی
+        make_official: رسمی
+        title: 'موقعیت های رسمی: جستجوی کاربر'
+        no_results: موقعیت های رسمی یافت نشد
     organizations:
       index:
         filter: فیلتر
         filters:
           all: همه
           pending: انتظار
+          rejected: رد شده
           verified: تایید
+        hidden_count_html:
+          one: همچنین <strong> یک سازمان </ strong>بدون کاربر یا با یک کاربر پنهان وجود دارد.
+          other: همچنین <strong>%{count} یک سازمان </ strong>بدون کاربر یا با یک کاربر پنهان وجود دارد.
         name: نام
         email: پست الکترونیکی
         phone_number: تلفن
         responsible_name: مسئول
         status: وضعیت ها
+        no_organizations: هیچ سازمانی وجود ندارد
         reject: رد
         rejected: رد شده
         search: جستجو
