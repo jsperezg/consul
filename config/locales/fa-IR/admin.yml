@@ -191,6 +191,7 @@ fa:
         table_selection: "انتخاب شده"
         table_evaluation: "نشان دادن به ارزیاب ها"
         table_incompatible: "ناسازگار"
+        cannot_calculate_winners: بودجه باید در مرحله "رای گیری پروژه ها"، "بررسی رای گیری" یا " پایان بودجه" برای محاسبه پروژه های برنده باقی بماند
       show:
         assigned_admin: سرپرست تعیین شده
         assigned_valuators: اختصاص ارزیاب ها
@@ -227,6 +228,7 @@ fa:
         documents: "اسناد"
         see_documents: "دیدن اسناد (%{count})"
         no_documents: "بدون اسناد"
+        valuator_groups: "گروهای ارزيابي"
       edit:
         classification: طبقه بندی
         compatibility: سازگاری
@@ -349,6 +351,7 @@ fa:
             all: همه
         new:
           back: برگشت
+          title: ایجاد یک پروسه جدید قانون مشارکتی 
           submit_button: فرآیند را ایجاد کنید
         process:
           title: "فرآیند\n"
@@ -369,10 +372,23 @@ fa:
           back: برگشت
         form:
           header_information: اطلاعات سرصفحه
+          header_information_description: ارائه اطلاعات در مورد پیشنهادات. این متن به عنوان یک هشدار در بخش پیشنهاداتهای داخل این فرایند نمایش داده می شود. برای قالب کردن متن از Markdown استفاده کنید.
+          header_information_placeholder: اضافه کردن اطلاعات برای هدر پیشنهادات
+          custom_categories: "دسته بندی ها\n"
+          custom_categories_description: دسته بندی هایی که کاربران می توانند ایجاد پیشنهاد را انتخاب کنند.
       draft_versions:
+        create:
+          notice: 'پیش نویس با موفقیت ایجاد شد <a href="%{link}"> برای بازدید کلیک کنید </a>'
+          error: پیش نویس ایجاد نشد
+        update:
+          notice: 'پیش نویس با موفقیت ایجاد شد <a href="%{link}"> برای بازدید کلیک کنید </a>'
+          error: پیش نویس قابل ارتقا نیست.
+        destroy:
+          notice: پیش نویس  با موفقیت حذف شد.
         edit:
           back: برگشت
           submit_button: ذخیره تغییرات
+          warning: شما متن را ویرایش کرده اید، فراموش نکنید که برای ذخیره دائمی تغییرات، روی ذخیره کلیک کنید.
         errors:
           form:
             error: خطا
