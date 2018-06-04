@@ -702,6 +702,7 @@ fa:
         destroy: "غرفه  تعیین نشده است"
         create: "غرفه اختصاص داده شده"
         error_destroy: "هنگام برچیدن انتصاب غرفه خطایی رخ داد"
+        error_create: "خطایی در هنگام اختصاص دادن غرفه به نظرسنجی رخ داد"
       show:
         location: "محل"
         officers: "افسرها"
@@ -731,8 +732,17 @@ fa:
         title: "نظر سنجی جدید"
         show_results_and_stats: "نتایج و آمار نشان می دهد"
         show_results: "مشاهده نتایج"
+        show_stats: "نمایش آمار"
+        submit_button: "ایجاد نظرسنجی"
+      edit:
+        title: "ویرایش نظرسنجی "
+        submit_button: " به روز رسانی نظرسنجی"
       show:
         questions_tab: سوالات
+        booths_tab: غرفه ها
+        officers_tab: افسرها
+        recounts_tab: شمارش مجدد
+        results_tab: نتایج
         questions_title: "فهرست پرسش ها"
         table_title: "عنوان"
       flash:
