@@ -27,3 +27,10 @@ fa:
         subject: "دستورالعمل برای بازنشانی گذرواژه شما"
       unlock_instructions:
         subject: " دستورالعمل بازکردن مجدد"
+    omniauth_callbacks:
+      failure: "به شما اجازه داده نشده است%{kind} چون %{reason}."
+      success: "به عنوان موفقیت آمیز شناخته شده است%{kind}"
+  errors:
+    messages:
+      not_found: "یافت نشد"
+      not_locked: "قفل نشده بود"
