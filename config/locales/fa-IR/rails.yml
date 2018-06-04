@@ -133,12 +133,16 @@ fa:
       other_than: باید غیر از%{count} باشد
     template:
       body: 'مشکلات در زمینه های زیر وجود دارد:'
+      header:
+        one: 1 خطا این%{model} از ذخیره شدن جلوگیری کرد
+        other: "%{count} خطا این%{model} از ذخیره شدن جلوگیری کرد"
   helpers:
     select:
       prompt: "لطفا انتخاب کنید\n"
     submit:
       create: "ايجاد كردن\n%{model}"
       submit: "ذخیره\n%{model}"
+      update: به روز رسانی %{model}
   number:
     currency:
       format:
