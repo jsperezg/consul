@@ -754,6 +754,12 @@ fa:
       index:
         title: "سوالات"
         create: "ایجاد سوال"
+        no_questions: "هیچ سوالی وجود ندارد"
+        filter_poll: فیلتر توسط نظرسنجی
+        select_poll: انتخاب نظرسنجي
+        questions_tab: "سوالات"
+        successful_proposals_tab: "طرح های موفق"
+        create_question: "ایجاد سوال"
         table_proposal: "طرح های پیشنهادی"
         table_question: "سوال"
       edit:
@@ -1023,12 +1029,48 @@ fa:
       geozone:
         name: نام
         external_code: ویدیوهای خارجی
+        census_code: کد سرشماری
+        coordinates: مختصات
+      errors:
+        form:
+          error:
+            one: "خطا باعث می شود که این geozone نجات یابد"
+            other: 'خطاها باعث می شود که این geozone نجات یابد'
+      edit:
+        form:
+          submit_button: ذخیره تغییرات
+        editing: ویرایش geozone
+        back: برگرد
+      new:
+        back: برگرد
+        creating: ایجاد بخش
+      delete:
+        success: نقطه عطف با موفقیت حذف شد.
+        error: این geozone را نمی توان حذف نمود زیرا عناصر متصل به آن وجود دارد
     signature_sheets:
       author: نویسنده
       created_at: ' ایجاد تاریخ'
       name: نام
+      no_signature_sheets: "ورق امضا وجود ندارد"
+      index:
+        title: ورق امضا
+        new: ورق های امضای جدید
+      new:
+        title: ورق های امضای جدید
+        document_numbers_note: "اعداد را با کاما (،) جدا کنید"
+        submit: ایجاد  ورقه امضا
       show:
+        created_at: ایجاد شده
         author: نویسنده
+        documents: اسناد
+        document_count: "تعداد اسناد:"
+        verified:
+          one: "%{count} امضا معتبر است"
+          other: "%{count} امضا معتبر است"
+        unverified:
+          one: "%{count} امضای غیرمعتبر است"
+          other: "%{count} امضا نامعتبر وجود دارد"
+        unverified_error: توسط سرشماری تایید نشده است.
     stats:
       show:
         summary:
