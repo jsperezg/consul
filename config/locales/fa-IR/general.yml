@@ -3,3 +3,9 @@ fa:
     show:
       user_permission_title: "مشارکت\n"
       username_label: نام کاربری
+      verified_account: حساب تایید شده
+  comments:
+    comment:
+      admin: مدیران
+      author: نویسنده
+      moderator: سردبیر
