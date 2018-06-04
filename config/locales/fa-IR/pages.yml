@@ -19,6 +19,9 @@ fa:
       processes:
         title: "روندها\n"
         link: "روندها\n"
+      faq:
+        page:
+          faq_1_title: "سوال 1"
     verify:
       email: پست الکترونیکی
       password: رمز عبور
