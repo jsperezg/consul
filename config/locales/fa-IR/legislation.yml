@@ -4,4 +4,13 @@ fa:
       comments:
         see_all: "همه را ببین\n"
         see_complete: مشاهده کامل
+        comments_count:
+          one: "%{count} نظر"
+          other: "%{count} نظرات"
+        replies_count:
+          one: "%{count} پاسخ"
+          other: "%{count} پاسخ ها"
         cancel: لغو
+        publish_comment: نشر نظر
+      form:
+        phase_not_open: این فاز  باز نمی شود.
