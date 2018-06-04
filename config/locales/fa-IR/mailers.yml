@@ -41,5 +41,8 @@ fa:
       hi: "کاربر گرامی"
       new_href: "پروژه جدید سرمایه گذاری"
       sincerely: "با تشکر."
+    budget_investment_selected:
+      sincerely: "با تشكر."
     budget_investment_unselected:
+      hi: "کاربر گرامی"
       sincerely: "با تشكر."
