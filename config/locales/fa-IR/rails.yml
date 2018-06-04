@@ -120,8 +120,37 @@ fa:
       not_an_integer: باید یک عدد صحیح باشد 
       odd: باید فرد باشد 
       required: باید وجود داشته باشد
+      taken: "قبلا گرفته شده\nVer"
+      too_long:
+        one: بیش از حد طولانی است (حداکثر است 1 کاراکتر)
+        other: بیش از حد طولانی است (حداکثر است %{count}کاراکتر)
+      too_short:
+        one: خیلی کوتاه است (حداقل 1 کاراکتر است)
+        other: خیلی کوتاه است (حداقل%{count} کاراکتر است)
+      wrong_length:
+        one: طول اشتباه (باید 1 حرف باشد)
+        other: طول اشتباه (باید %{count} حرف باشد)
+      other_than: باید غیر از%{count} باشد
+    template:
+      body: 'مشکلات در زمینه های زیر وجود دارد:'
+  helpers:
+    select:
+      prompt: "لطفا انتخاب کنید\n"
+    submit:
+      create: "ايجاد كردن\n%{model}"
+      submit: "ذخیره\n%{model}"
   number:
+    currency:
+      format:
+        delimiter: ","
+        format: "%u%n"
+        precision: 0
+        separator: "."
+        significant: false
+        strip_insignificant_zeros: false
+        unit: "$"
     format:
+      delimiter: ","
       precision: 0
       separator: "."
       significant: false
