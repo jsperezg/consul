@@ -657,21 +657,47 @@ fa:
         date: "تاریخ"
         booth: "غرفه"
         assignments: "اعمال تغییرات در این نظرسنجی"
+        no_assignments: "این کاربر هیچ تغییری در این نظرسنجی ندارد."
     poll_shifts:
       new:
         add_shift: "اضافه کردن تغییر"
         shift: "تخصیص"
+        shifts: "تغییرات در این غرفه"
         date: "تاریخ"
         task: "وظیفه\n"
         edit_shifts: تغییر شیفت ها
         new_shift: "تغییر جدید"
+        no_shifts: "این غرفه هیچ تغییری ندارد"
+        officer: "افسر"
         remove_shift: "حذف"
         search_officer_button: جستجو
+        search_officer_placeholder: جستجو افسر
+        search_officer_text: جستجو برای افسر برای اختصاص شیفت جدید 
+        select_date: "انتخاب روز"
+        select_task: "وظیفه را انتخاب کنید"
+        table_shift: "تغییر "
         table_email: "پست الکترونیکی"
         table_name: "نام"
+      flash:
+        create: "شیفت اضافه شده"
+        destroy: "حذف تغییرات"
+        date_missing: "تاریخ باید انتخاب شود"
+      vote_collection: جمع آوری رای
+      recount_scrutiny: بازپرداخت و بررسی
+    booth_assignments:
+      manage_assignments: مدیریت تکالیف
+      manage:
+        assignments_list: "تکالیف برای رأی گیری '%{poll} '"
+        status:
+          assign_status: تخصیص
+          assigned: اختصاص داده شده
+          unassigned: مجاز نیست
+        actions:
+          assign: اختصاص غرفه
     poll_booth_assignments:
       show:
         location: "محل"
+        officers: "افسرها"
         officers_list: "لیست افسر  برای این غرفه"
         no_officers: "هیچ افسران برای این غرفه وجود دارد"
         recounts: "شمارش مجدد"
