@@ -23,6 +23,9 @@ fa:
       spending_proposals: پروژه های سرمایه گذاری
       spending_proposal_features:
         voting_allowed: رای گیری در پروژه های سرمایه گذاری
+      legislation: قانون
+      user:
+        recommendations: توصیه ها
     map_zoom: زوم
     mailer_from_name: نام ایمیل مبدا
     meta_description: "توضیحات سایت (SEO)"
