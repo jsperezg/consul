@@ -674,6 +674,7 @@ fa:
         search_officer_placeholder: جستجو افسر
         search_officer_text: جستجو برای افسر برای اختصاص شیفت جدید 
         select_date: "انتخاب روز"
+        no_voting_days: "روز رای گیری به پایان رسید"
         select_task: "وظیفه را انتخاب کنید"
         table_shift: "تغییر "
         table_email: "پست الکترونیکی"
@@ -1071,13 +1072,32 @@ fa:
           one: "%{count} امضای غیرمعتبر است"
           other: "%{count} امضا نامعتبر وجود دارد"
         unverified_error: توسط سرشماری تایید نشده است.
+        loading: " امضاتوسط سرشماری تایید شده است، لطفا  این صفحه را رفرش کنید"
     stats:
       show:
+        stats_title: آمار 
         summary:
+          comment_votes: نظر رای
           comments: توضیحات
+          debate_votes: بحث رای
           debates: مباحثه
+          proposal_votes: پیشنهاد رای
           proposals: طرح های پیشنهادی
+          budgets: بودجه های باز
+          budget_investments: پروژه سرمایه گذاری
+          spending_proposals: هزینه های طرح ها
+          unverified_users: کاربران تایید نشده
+          user_level_three: کاربران سطح سه
+          user_level_two: کاربران سطح دو
+          users: کل کاربران
+          verified_users: کاربران تایید شده
+          verified_users_who_didnt_vote_proposals: کاربران تأیید شده که آرا پیشنهاد نموده اند
+          visits: بازديد
           votes: کل رای
+        spending_proposals_title: هزینه های طرح ها
+        budgets_title: بودجه مشارکتی
+        visits_title: بازديد
+        direct_messages: پیام های مستقیم
         proposal_notifications: اطلاعیه های پیشنهاد
         incomplete_verifications: تأیید ناقص
         polls: نظرسنجی
@@ -1201,6 +1221,7 @@ fa:
           locale: زبان
     homepage:
       title: صفحه اصلی
+      description: ماژول های فعال در صفحه اصلی به ترتیب در اینجا نمایش داده می شوند.
       header_title: سربرگ
       no_header: بدون سربرگ
       create_header: ایجاد سربرگ
