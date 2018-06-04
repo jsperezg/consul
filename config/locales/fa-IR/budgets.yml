@@ -3,3 +3,10 @@ fa:
     ballots:
       show:
         title: ' رای شما'
+    investments:
+      form:
+        tag_category_label: "دسته بندی ها\n"
+        tags_label: برچسب ها
+      index:
+        search_form:
+          button: جستجو
