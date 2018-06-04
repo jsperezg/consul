@@ -42,8 +42,19 @@ fa:
       legislation: قانون
       user:
         recommendations: توصیه ها
+        skip_verification: رد کردن تأیید کاربر 
+      community: جامعه در طرح و سرمایه گذاری
+      map: پیشنهادات و جغرافیای سرمایه گذاری بودجه
+      allow_images: اجازه آپلود و نمایش تصاویر
+      allow_attached_documents: اجازه آپلود و نمایش اسناد متصل
+    map_latitude: "عرض جغرافیایی\n"
+    map_longitude: طول جغرافیایی
     map_zoom: زوم
     mailer_from_name: نام ایمیل مبدا
+    mailer_from_address: نام ایمیل مبدا
+    meta_title: "عنوان سایت (SEO)"
     meta_description: "توضیحات سایت (SEO)"
     meta_keywords: "واژه هاي كليدي (SEO)"
+    verification_offices_url: دفاتر تأیید URL
     min_age_to_participate: حداقل سن مورد نیاز برای شرکت 
+    proposal_improvement_path: لینک بهبود اطلاعات لینک داخلی
