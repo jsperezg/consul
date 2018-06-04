@@ -31,6 +31,12 @@ fa:
       administrator:
         one: "مدیر"
         other: "مدیران"
+      valuator:
+        one: "ارزیاب"
+        other: "ارزیاب ها"
+      valuator_group:
+        one: "گروه ارزيابي"
+        other: "گروهای ارزيابي"
       manager:
         one: "مدیر\n"
         other: "مدیرها\n"
@@ -235,6 +241,14 @@ fa:
         subject: "موضوع\n"
         from: "از \n"
         body: محتوای ایمیل
+      widget/card:
+        label: برچسب (اختیاری)
+        title: عنوان
+        description: توضیحات
+        link_text: لینک متن
+        link_url: لینک آدرس
+      widget/feed:
+        limit: تعداد موارد
     errors:
       models:
         user:
