@@ -91,12 +91,13 @@ de:
         share: Teilen
       participation:
         phase_not_open: Diese Phase ist noch nicht geöffnet
+        organizations: Organisationen dürfen sich nicht an der Diskussion beteiligen
         signin: Anmelden
         signup: Registrieren
         unauthenticated: Sie müssen %{signin} oder %{signup}, um teilzunehmen.
         verified_only: 'Nur verifizierte Benutzer können teilnehmen: %{verify_account}.'
         verify_account: Verifizieren Sie Ihr Konto
-        debate_phase_not_open: Debattenphase ist beendet und keine Antworten weiteren werden angenommen
+        debate_phase_not_open: Diskussionsphase ist beendet. Antworden werden nicht mehr angenommen
     shared:
       share: Teilen
     proposals:
