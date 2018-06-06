@@ -105,7 +105,7 @@ de:
         signup: Registrieren
         unauthenticated: Sie müssen %{signin} oder %{signup}, um teilzunehmen.
         verified_only: 'Nur verifizierte Benutzer können teilnehmen: %{verify_account}.'
-        verify_account: Verifizieren Sie Ihr Konto
+        verify_account: Verifizieren Sie Ihr Benutzerkonto
         debate_phase_not_open: Diskussionsphase ist beendet. Antworden werden nicht mehr angenommen
     shared:
       share: Teilen
