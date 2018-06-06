@@ -1,0 +1,30 @@
+fa:
+  management:
+    account:
+      menu:
+        reset_password_email: رمز عبور را از طریق ایمیل بازنشانی کنید
+        reset_password_manually: رمز عبور را به صورت دستی بازنشانی کنید
+      alert:
+        unverified_user: هیچ کاربر تایید شده هنوز وارد نشده است
+      show:
+        title: "حساب کاربری\n"
+      edit:
+        title: 'ویرایش حساب کاربر: تنظیم مجدد رمز عبور'
+        back: برگشت
+        password:
+          password: رمز عبور
+          send_email: ارسال مجدد رمز عبور ایمیل
+          reset_email_send: ایمیل به درستی ارسال شد
+          reseted: گذرواژه با موفقیت رست شد
+          random: رمز عبور تصادفی ایجاد کنید
+          save: ذخیره کردن
+    users:
+      erase_account_link: حذف کاربر 
+      erase_account_confirm: آیا مطمئن هستید که می خواهید حسابتان را  حذف کنید؟ این دستور قابل بازگشت نیست!
+      erase_warning: این عمل قابل لغو نیست لطفا مطمئن شوید که می خواهید این حساب را پاک کنید.
+      erase_submit: حذف حساب
+    user_invites:
+      new:
+        label: پست الکترونیکی
+      create:
+        title: ' دعوت کاربر'
