@@ -141,11 +141,11 @@ de:
     direct_message: private Nachricht
     error: Fehler
     errors: Fehler
-    policy: Datenschutzregelung
+    policy: Datenschutzbestimmungen
     proposal: Vorschlag
     proposal_notification: "Benachrichtigung"
     poll/question/answer: Antwort
-    user: Konto
+    user: Benutzerkonto
     verification/sms: Telefon
     document: Dokument
     topic: Thema
@@ -171,7 +171,7 @@ de:
       open_source: Open-Source Software
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_title: Teilnahme
-      privacy: Datenschutzregelung
+      privacy: Datenschutzbestimmungen
       transparency_title: Transparenz
       transparency_url: https://transparency.consul
     header:
@@ -188,7 +188,7 @@ de:
       logo: Consul-Logo
       moderation: Moderation
       help: Hilfe
-      my_account_link: Mein Konto
+      my_account_link: Mein Benutzerkonto
       my_activity_link: Meine Aktivität
       open: Offen
       open_gov: Open Government
@@ -198,7 +198,7 @@ de:
       watch_form_message: 'Sie haben die Änderungen nicht gespeichert. Möchten Sie die Seite dennoch verlassen?'
   legacy_legislation:
     help:
-      alt: Wählen Sie den Text, den Sie kommentieren möchten und drücken Sie die den Button mit dem Stift.
+      alt: Wählen Sie den Text, den Sie kommentieren möchten und drücken Sie den Button mit dem Stift.
       text: Um dieses Dokument zu kommentieren, müssen Sie %{sign_in} oder %{sign_up}. Dann wählen Sie den Text aus, den Sie kommentieren möchten und klicken auf den Button mit dem Stift.
       text_sign_in: login
       text_sign_up: registrieren
@@ -578,7 +578,7 @@ de:
       i_dont_have_an_account: Ich habe kein Benutzerkonto
       i_have_an_account: Ich habe bereits ein Benutzerkonto
       question: Haben Sie bereits in Benutzerkonto bei %{org_name}?
-      title: Konto Verifizierung
+      title: Verifizierung Benutzerkonto
     welcome:
       go_to_index: Vorschläge und Diskussionen anzeigen
       title: Teilnehmen
