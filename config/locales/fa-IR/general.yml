@@ -135,3 +135,12 @@ fa:
     budget/investment: سرمایه گذاری
     poll/shift: تغییر 
     poll/question/answer: پاسخ
+    user: "حساب\n"
+    verification/sms: تلفن
+    signature_sheet: ورق امضا
+    document: سند
+    topic: موضوع
+    image: تصویر
+  geozones:
+    none: تمام شهر
+    all: تمام مناطق
