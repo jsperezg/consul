@@ -3,6 +3,10 @@ fa:
     ballots:
       show:
         title: ' رای شما'
+        amount_spent: مقدار صرف شده
+        remaining: "شما هنوز<span>%{amount}</span> برای سرمایه گذاری دارید"
+        no_balloted_group_yet: "شما هنوز به این گروه رای نداده اید، رأی دهید"
+        remove: حذف رای
     investments:
       form:
         tag_category_label: "دسته بندی ها\n"
