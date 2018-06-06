@@ -18,7 +18,37 @@ fa:
           reseted: گذرواژه با موفقیت رست شد
           random: رمز عبور تصادفی ایجاد کنید
           save: ذخیره کردن
+    menu:
+      create_spending_proposal: ایجاد  هزینه پیشنهاد
+      print_spending_proposals: چاپ پیشنهادات هزینه
+      support_spending_proposals: پشتیبانی از پیشنهادات هزینه
+      create_budget_investment: "ایجاد بودجه سرمایه گذاری \n"
+      print_budget_investments: چاپ بودجه سرمایه گذاری
+      support_budget_investments: حمایت از بودجه سرمایه گذاری 
+      users: کاربران
+      edit_user_accounts: ویرایش حساب کاربری
+      user_invites: ' دعوت کاربر'
+    permissions:
+      create_proposals: ایجاد طرح های جدید
+      debates: مشارکت در بحث
+      support_proposals: '* پشتیبانی از طرح های پیشنهادی'
+      vote_proposals: پیشنهادات رای دهی
+    print:
+      proposals_info: ایجاد پیشنهاد  در http://url.consul
+      proposals_note: پیشنهادات بیشتر حمایت شده رای خواهد آورد . در صورت پذیرش اکثریت، شورای شهر باید انجام دهد.
+      proposals_title: 'طرح های پیشنهادی:'
+      spending_proposals_info: شرکت درhttp://url.consul
+    proposals:
+      print:
+        print_button: چاپ
+    budget_investments:
+      print:
+        print_button: چاپ
+    spending_proposals:
+      print:
+        print_button: چاپ
     users:
+      email_optional_label: ایمیل (اختیاری)
       erase_account_link: حذف کاربر 
       erase_account_confirm: آیا مطمئن هستید که می خواهید حسابتان را  حذف کنید؟ این دستور قابل بازگشت نیست!
       erase_warning: این عمل قابل لغو نیست لطفا مطمئن شوید که می خواهید این حساب را پاک کنید.
@@ -26,5 +56,9 @@ fa:
     user_invites:
       new:
         label: پست الکترونیکی
+        info: "ایمیل های جدا شده توسط کاما ('،') را وارد کنید"
+        submit: ' ارسال دعوت'
+        title: ' دعوت کاربر'
       create:
+        success_html: <strong>%{count}دعوت نامه</strong>ارسال شده
         title: ' دعوت کاربر'
