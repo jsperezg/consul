@@ -46,6 +46,7 @@ de:
         text_comments: Kommentare
     processes:
       header:
+        additional_info: Weitere Informationen
         description: Beschreibung
       proposals:
         empty_proposals: Es gibt keine Vorschläge
@@ -53,6 +54,7 @@ de:
         empty_questions: Es gibt keine Fragen
         participate: An Diskussion teilnehmen
       index:
+        filter: Filter
         filters:
           open: Laufende Verfahren
           next: Geplante
@@ -60,14 +62,18 @@ de:
         no_open_processes: Es gibt keine offenen Verfahren
         no_past_processes: Es gibt keine vergangene Prozesse
         section_header:
+          icon_alt: Gesetzgebungsverfahren Icon
           title: Gesetzgebungsverfahren
           help: Hilfe zu Gesetzgebungsverfahren
         section_footer:
           title: Hilfe zu Gesetzgebungsverfahren
       phase_not_open:
         not_open: Diese Phase ist noch nicht geöffnet
+      phase_empty:
+        empty: Keine Veröffentlichung bisher
       process:
         see_latest_comments: Neueste Kommentare anzeigen
+        see_latest_comments_title: Kommentar zu diesem Prozess
       shared:
         key_dates: Die wichtigsten Termine
         debate_dates: Debatte
