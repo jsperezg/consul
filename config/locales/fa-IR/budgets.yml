@@ -60,12 +60,46 @@ fa:
     investments:
       form:
         tag_category_label: "دسته بندی ها\n"
+        tags_instructions: "برچسب این پیشنهاد. شما می توانید از دسته های پیشنهاد شده را انتخاب کنید یا خودتان را اضافه کنید"
         tags_label: برچسب ها
+        tags_placeholder: "برچسبهایی را که میخواهید از آن استفاده کنید، با کاما ('،') جدا کنید"
+        map_location: "نقشه محل"
+        map_remove_marker: "حذف  نشانگر نقشه"
+        location: "اطلاعات اضافی مکان"
+        map_skip_checkbox: "این سرمایه گذاری مکان خاصی ندارد و من از آن آگاه نیستم."
       index:
+        title: بودجه مشارکتی
+        unfeasible: سرمایه گذاری غیر قابل پیش بینی
+        by_heading: "پروژه های سرمایه گذاری با دامنه:%{heading}"
         search_form:
           button: جستجو
+          placeholder: جستجو پروژه های سرمایه گذاری ...
           title: جستجو
+        search_results_html:
+          one: "حاوی اصطلاح<strong>%{search_term}</strong>"
+          other: "حاوی اصطلاح<strong>%{search_term}</strong>"
+        sidebar:
+          my_ballot: رای من
+          voted_info_link: تغییر رای خود 
+          check_ballot_link: "رای من را چک کن"
+          sign_in: "ورود به برنامه"
+          sign_up: "ثبت نام"
+          by_feasibility: "امکان پذیری\n"
+          feasible: پروژه های قابل اجرا
+          unfeasible: پروژه های غیرقابل اجرا
+        orders:
+          random: "تصادفی\n"
+          confidence_score: بالاترین امتیاز
+          price: با قیمت
       show:
+        author_deleted: کاربر حذف شد
+        price_explanation: توضیح قیمت
+        unfeasibility_explanation: توضیح امکان سنجی 
+        code_html: 'کد پروژه سرمایه گذاری:<strong>%{code}</strong>'
+        location_html: "محل:\n%{location}</strong>"
+        organization_name_html: 'پیشنهاد از طرف:<strong>%{name}</strong>'
+        share: "اشتراک گذاری\n"
+        title: پروژه سرمایه گذاری
         supports: پشتیبانی ها
         votes: آرا
         price: قیمت
@@ -111,5 +145,7 @@ fa:
       heading_selection_title: "توسط منطقه"
       spending_proposal: عنوان پیشنهاد
       ballot_lines_count: زمان انتخاب شده است
+      hide_discarded_link: پنهان کردن 
+      show_all_link: نمایش همه
       price: قیمت
       amount_available: بودجه موجود
