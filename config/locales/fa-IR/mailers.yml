@@ -37,6 +37,7 @@ fa:
       intro_html: "سلام <strong>%{author}</strong>"
       follow_link: "بودجه مشارکتی"
       sincerely: "با تشکر."
+      share: "پروژه خود را به اشتراک بگذارید"
     budget_investment_unfeasible:
       hi: "کاربر گرامی"
       new_href: "پروژه جدید سرمایه گذاری"
