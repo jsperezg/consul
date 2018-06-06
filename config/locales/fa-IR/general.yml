@@ -99,3 +99,39 @@ fa:
       title: مباحثه
       section_header:
         title: مباحثه
+      section_footer:
+        proposals_link: طرح های پیشنهادی
+        budget_link: بودجه مشارکتی
+    new:
+      form:
+        submit_button: شروع بحث
+      info_link: ایجاد طرح های جدید
+      more_info: اطلاعات بیشتر
+      start_new: شروع بحث
+    show:
+      author_deleted: کاربر حذف شد
+      comments:
+        zero: بدون نظر
+        one: 1 نظر
+        other: "%{count} نظرات"
+      comments_title: توضیحات
+      edit_debate_link: ویرایش
+      login_to_comment: برای نظر دادن شما باید %{signin} یا %{signup} کنید .
+      share: "اشتراک گذاری\n"
+      author: نویسنده
+    update:
+      form:
+        submit_button: ذخیره تغییرات
+  errors:
+    messages:
+      user_not_found: کاربری یافت نشد
+  form:
+    debate: بحث
+    error: خطا
+    errors: خطاها
+    proposal: طرح های پیشنهادی
+    proposal_notification: "اطلاعیه ها"
+    spending_proposal: هزینه های طرح
+    budget/investment: سرمایه گذاری
+    poll/shift: تغییر 
+    poll/question/answer: پاسخ
