@@ -64,6 +64,7 @@ fa:
         tags_label: برچسب ها
         tags_placeholder: "برچسبهایی را که میخواهید از آن استفاده کنید، با کاما ('،') جدا کنید"
         map_location: "نقشه محل"
+        map_location_instructions: "نقشه محل حرکت و نشانگر محل."
         map_remove_marker: "حذف  نشانگر نقشه"
         location: "اطلاعات اضافی مکان"
         map_skip_checkbox: "این سرمایه گذاری مکان خاصی ندارد و من از آن آگاه نیستم."
@@ -80,8 +81,19 @@ fa:
           other: "حاوی اصطلاح<strong>%{search_term}</strong>"
         sidebar:
           my_ballot: رای من
+          voted_html:
+            one: "<strong>شما یک پیشنهاد را با هزینه یک رأی دادید%{amount_spent}</strong>"
+            other: "<strong>شما %{count} پیشنهاد را با هزینه یک رأی دادید%{amount_spent}</strong>"
+          voted_info: شما می توانید%{link} در هر زمانی  این مرحله را پایان دهید . بدون نیاز به صرف تمام پول در دسترس.
           voted_info_link: تغییر رای خود 
+          different_heading_assigned_html: "شما در ردیف دیگری آراء فعال دارید:%{heading_link}"
+          change_ballot: "اگر نظر شما تغییر کند، می توانید رای خود را در%{check_ballot} حذف کنید و دوباره شروع کنید."
           check_ballot_link: "رای من را چک کن"
+          zero: شما به هیچ پروژه سرمایه گذاری در این گروه رأی نداده اید.
+          verified_only: "برای ایجاد یک سرمایه گذاری جدید بودجه%{verify}"
+          verify_account: "حساب کاربری خودراتایید کنید\n"
+          create: "ایجاد بودجه سرمایه گذاری \n"
+          not_logged_in: "برای ایجاد یک سرمایه گذاری جدید بودجه باید%{sign_in} یا %{sign_up} کنید."
           sign_in: "ورود به برنامه"
           sign_up: "ثبت نام"
           by_feasibility: "امکان پذیری\n"
@@ -149,3 +161,13 @@ fa:
       show_all_link: نمایش همه
       price: قیمت
       amount_available: بودجه موجود
+      accepted: "هزینه های طرح پذیرفته شده: "
+      incompatibles: ناسازگار
+      investment_proyects: لیست تمام پروژه های سرمایه گذاری
+      unfeasible_investment_proyects: لیست پروژه های سرمایه گذاری غیرقابل پیش بینی
+      not_selected_investment_proyects: فهرست همه پروژه های سرمایه گذاری که برای رای گیری انتخاب نشده اند
+    phases:
+      errors:
+        dates_range_invalid: "تاریخ شروع نمی تواند برابر یا بعد از تاریخ پایان باشد"
+        prev_phase_dates_invalid: "تاریخ شروع باید بعد از تاریخ شروع فاز فعال قبلی باشد%{phase_name}"
+        next_phase_dates_invalid: "تاریخ پایان باید زودتر از تاریخ پایان مرحله فاز بعدی باشد%{phase_name}"
