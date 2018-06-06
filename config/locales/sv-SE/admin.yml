@@ -624,6 +624,16 @@ sv:
       index:
         title: "Värderingsorgan"
         new: "Skapa värderingsgrupp"
+        name: "Namn"
+        members: "Medlemmar"
+        no_groups: "Det finns ingen värderingsorgansgrupper"
+      show:
+        title: "Värderingsorgansgrupp: %{group}"
+        no_valuators: "Det finns ingen värderingsorgan som tilldelats denna grupp"
+      form:
+        name: "Grupp namn"
+        new: "Skapa värderingsorgan grupp"
+        edit: "Spara värderingsorgan grupp"
     poll_officers:
       index:
         title: Opinionsmän
@@ -724,10 +734,29 @@ sv:
         show_results_and_stats: "Visa resultat och statistik"
         show_results: "Visa resultat"
         show_stats: "Visa statistik"
+        results_and_stats_reminder: "Markerar dessa kryssrutor av resultat och/eller statistik för denna enkät kommer att vara allmänt tillgängliga och varje användare kommer att se dem."
+        submit_button: "Skapa opinionsundersökning"
+      edit:
+        title: "Redigera opinionsundersökning"
+        submit_button: "Uppdatera opinionsundersökning"
       show:
+        questions_tab: Frågor
+        booths_tab: Röstbås
+        officers_tab: Ämbetsmän
+        recounts_tab: Omräkningar
+        results_tab: Resultat
+        no_questions: "Det finns inga frågor till denna opinionsundersökning."
+        questions_title: "Lista med frågor"
         table_title: "Titel"
+      flash:
+        question_added: "Fråga har lagts till denna enkät"
+        error_on_question_added: "Frågan kunde inte tilldelas till denna enkät"
     questions:
       index:
+        title: "Frågor"
+        create: "Skapa fråga"
+        no_questions: "Det finns inga frågor."
+        filter_poll: Filtrera efter enkät
         select_poll: Välj opinionssökning
         questions_tab: "Frågor"
         successful_proposals_tab: "Framgångsrika förslag"
@@ -952,9 +981,58 @@ sv:
       new:
         back: Gå tillbaka
         creating: Skapa distrikt
+      delete:
+        success: Distriktsområde har tagits bort
+        error: Detta område kan inte raderas eftersom det finns element fäst vid den
     signature_sheets:
+      author: Författare
+      created_at: Skapningsdatum
       name: Namn
+      no_signature_sheets: "Det finns inga signatur_blanketter"
+      index:
+        title: Signatur ark
+        new: Nya underskriftspapper
+      new:
+        title: Nya underskriftspapper
+        document_numbers_note: "Skriv de siffror separerade av kommatecken ()"
+        submit: Skapa signatur ark
+      show:
+        created_at: Skapad
+        author: Författare
+        documents: Dokument
+        document_count: "Antal dokument:"
+        verified:
+          one: "Det finns %{count} giltiga signaturer"
+          other: "Det finns %{count} giltiga signaturer"
+        unverified:
+          one: "Det finns %{count} ogiltiga signaturer"
+          other: "Det finns %{count} ogiltiga signaturer"
+        unverified_error: (Inte verifierad av folkräkningen)
+        loading: "Det finns fortfarande signaturer som kontrolleras av folkräkningen, vänligen uppdatera sidan om en stund"
     stats:
+      show:
+        stats_title: Statistik
+        summary:
+          comment_votes: Kommentarsröster
+          comments: Kommentarer
+          debate_votes: Debatt röster
+          debates: Debatter
+          proposal_votes: Förslagsröster
+          proposals: Förslag
+          budgets: Öppna budgetar
+          budget_investments: Investeringsprojekt
+          spending_proposals: Förslag på utgifter
+          unverified_users: Overifierade användare
+          user_level_three: Nivå tre användare
+          user_level_two: Nivå två användare
+          users: Totalt antal användare
+          verified_users: Verifierade användare
+          verified_users_who_didnt_vote_proposals: Verifierade användare som inte röstade för något förslag
+          visits: Besök
+          votes: Totalt antal röster
+        spending_proposals_title: Förslag på utgifter
+        budgets_title: Medborgarbudget
+        visits_title: Besök
       direct_messages:
         total: Totalt
       proposal_notifications:
