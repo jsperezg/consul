@@ -1,5 +1,7 @@
 nl:
   verification:
+    alert:
+      lock: U heeft het maximale aantal inlogpogingen bereikt. Probeer het later opnieuw.
     letter:
       new:
         user_permission_info: Met uw account kunt u...
