@@ -57,7 +57,7 @@ de:
         filters:
           all: Alle
           on_comments: Kommentare
-          on_debates: Debatten
+          on_debates: Diskussionen
           on_proposals: Vorschläge
           on_users: Benutzer
         title: Moderator-Aktivität
@@ -256,7 +256,7 @@ de:
           all: Alle
           with_confirmed_hide: Bestätigt
           without_confirmed_hide: Ausstehend
-        hidden_debate: Verborgene Debatte
+        hidden_debate: Verborgene Diskussionen
         hidden_proposal: Verborgener Vorschlag
         title: Verborgene Kommentare
         no_hidden_comments: Es gibt keine verborgenen Kommentare.
@@ -272,8 +272,8 @@ de:
           all: Alle
           with_confirmed_hide: Bestätigt
           without_confirmed_hide: Ausstehend
-        title: Verborgene Debatten
-        no_hidden_debates: Es gibt keine verborgenen Debatten.
+        title: Verborgene Diskussionen
+        no_hidden_debates: Es gibt keine verborgenen Diskussionen.
     hidden_users:
       index:
         filter: Filter
@@ -308,7 +308,7 @@ de:
         form:
           enabled: Aktiviert
           process: Prozess
-          debate_phase: Debattenphase
+          debate_phase: Diskussionsphase
           allegations_phase: Phase für Behauptungen
           proposals_phase: Phase für Vorschläge
           start: Beginn
@@ -342,7 +342,7 @@ de:
         subnav:
           info: Information
           draft_texts: Text
-          questions: Debatte
+          questions: Diskussion
           proposals: Vorschläge
       proposals:
         index:
@@ -444,7 +444,7 @@ de:
       budgets: Partizipative Haushaltsmittel
       geozones: Distrikte verwalten
       hidden_comments: Verborgene Kommentare
-      hidden_debates: Verborgene Debatten
+      hidden_debates: Verborgene Diskussionen
       hidden_proposals: Verborgene Vorschläge
       hidden_users: Verborgene Benutzer
       administrators: Administratoren
