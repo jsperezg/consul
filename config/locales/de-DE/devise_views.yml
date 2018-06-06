@@ -10,10 +10,10 @@ de:
         new_password_confirmation_label: Zugangspasswort wiederholen
         new_password_label: Neues Zugangspasswort
         submit: Bestätigen
-        title: Bestätige mein Konto
+        title: Bestätige mein Benutzerkonto
     mailer:
       confirmation_instructions:
-        confirm_link: Bestätige mein Konto
+        confirm_link: Bestätige mein Benutzerkonto
         text: 'Sie können Ihre E-Mail unter folgenden Link bestätigen:'
         welcome: Willkommen
       reset_password_instructions:
@@ -23,9 +23,9 @@ de:
         title: Ändern Sie Ihr Passwort
       unlock_instructions:
         hello: Hallo
-        instructions_text: 'Bitte klicken Sie auf folgenden Link, um Ihr Konto zu entsperren:'
+        instructions_text: 'Bitte klicken Sie auf folgenden Link, um Ihr Benutzerkonto zu entsperren:'
         title: Ihr Konto wurde gesperrt
-        unlock_link: Mein Konto entsperren
+        unlock_link: Mein Benutzerkonto entsperren
     menu:
       login_items:
         login: Anmelden
