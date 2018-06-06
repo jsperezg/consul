@@ -1,11 +1,80 @@
 fa:
   account:
     show:
+      change_credentials_link: اعتبار من را تغییر دهید
+      email_on_comment_label: وقتی کسی در مورد پیشنهادها یا بحث های من نظر می دهد، از طریق ایمیل به من اطلاع دهید
+      email_on_comment_reply_label: وقتی کسی به نظرات من پاسخ می دهد، از طریق ایمیل به من اطلاع دهید
+      erase_account_link: پاک کردن حساب
+      finish_verification: تایید کامل
+      notifications: اطلاعیه ها
+      organization_name_label: نام سازمان
+      organization_responsible_name_placeholder: نماینده سازمان/جمعی
+      personal: اطلاعات شخصی
+      phone_number_label: شماره تلفن
+      public_activity_label: نگه داشتن لیست فعالیت های عمومی  من
+      title: حساب من
+      user_permission_support_proposal: '* پشتیبانی از طرح های پیشنهادی'
       user_permission_title: "مشارکت\n"
+      user_permission_verify: برای انجام همه اقدامات حساب خود را بررسی کنید.
+      user_permission_verify_info: "* تنها برای کاربران در سرشماری."
+      user_permission_votes: شرکت در رای گیری نهایی *
       username_label: نام کاربری
       verified_account: حساب تایید شده
+      verify_my_account: تأیید حساب کاربری
+  application:
+    close: بستن
+    menu: منو
   comments:
+    comments_closed: نظرات بسته شده اند
+    verified_only: شرکت %{verify_account}
+    verify_account: "حساب کاربری خودراتایید کنید\n"
     comment:
       admin: مدیران
       author: نویسنده
+      deleted: این نظر حذف شده است
       moderator: سردبیر
+      responses:
+        zero: بدون پاسخ
+        one: 1 نظر
+        other: "%{count} نظر"
+      user_deleted: کاربر حذف شد
+      votes:
+        zero: بدون رای
+        one: 1 رای
+        other: "%{count} رای"
+    form:
+      comment_as_admin: نظر به عنوان مدیر
+      comment_as_moderator: نظر به عنوان ناظر
+    select_order: مرتب سازی بر اساس
+    show:
+      return_to_commentable: 'بازگشت به '
+  comments_helper:
+    comment_button: نشر نظر
+    comment_link: توضیح
+    comments_title: توضیحات
+    reply_button: نشر پاسخ
+    reply_link: پاسخ
+  debates:
+    create:
+      form:
+        submit_button: شروع بحث
+    debate:
+      comments:
+        zero: بدون نظر
+        one: 1 نظر
+        other: "%{count} نظرات"
+      votes:
+        zero: بدون رای
+        one: 1 رای
+        other: "%{count} رای"
+    edit:
+      editing: ویرایش بحث
+      form:
+        submit_button: ذخیره تغییرات
+      show_link: مشاهده بحث
+    form:
+      debate_text: متن اولیه بحث
+      debate_title: عنوان بحث
+      tags_instructions: برچسب این بحث.
+      tags_label: موضوع ها
+      tags_placeholder: "برچسبهایی را که میخواهید از آن استفاده کنید، با کاما ('،') جدا کنید"
