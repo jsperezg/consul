@@ -30,6 +30,7 @@ de:
       processes:
         title: "Prozesse"
         link: "Prozesse"
+        sign_up: "Registrierung unter %{org}"
       faq:
         title: "Technische Probleme?"
         description: "Lesen Sie die FAQs und finden Sie Antworten auf Ihre Fragen."
