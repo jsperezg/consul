@@ -451,6 +451,7 @@ de:
       proposal:
         see_all: "Alle anzeigen"
     tags_cloud:
+      tags: Trending
       districts: "Bezirke"
       districts_list: "Liste der Bezirke"
       categories: "Kategorien"
