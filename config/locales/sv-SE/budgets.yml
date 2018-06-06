@@ -17,6 +17,40 @@ sv:
         not_verified: Endast godkända användare kan rösta om investeringar; %{verify_account}.
         organization: Organisationer är inte tillåtna att rösta
         not_selected: Omarkerade investeringsprojekt som inte stöds
+        not_enough_money_html: "Du har redan tilldelat den tillgängliga budgeten.<br><small>kom ihåg att du kan %{change_ballot} när som helst</small>"
+        no_ballots_allowed: Vald fas är stängd
+        different_heading_assigned_html: "Du har redan röstat under en annan rubrik: %{heading_link}"
+        change_ballot: ändra dina röster
+    groups:
+      show:
+        title: Välj ett alternativ
+        unfeasible_title: Ogenomförbara investeringar
+        unfeasible: Se ogenomförbara investeringar
+        unselected_title: Investeringar inte valda för lottningsfast
+        unselected: Se investeringar som inte valts för lottningsfas
+    phase:
+      drafting: Utkast (inte synligt för allmänheten)
+      informing: Informerar
+      accepting: Accepterar projekt
+      reviewing: Granskar projekt
+      selecting: Väljer projekt
+      valuating: Värderar projekt
+      publishing_prices: Publicerar projektpriser
+      balloting: Lottningsprojekt
+      reviewing_ballots: Granskar lottningar
+      finished: Färdig budget
+    index:
+      title: Medborgarbudgetar
+      empty_budgets: Det finns inga budgetar.
+      section_header:
+        icon_alt: Medborgarbudgetssymbol
+        title: Medborgarbudget
+        help: Hjälp med medborgardeltagande budgetar
+        all_phases: Se alla faser
+      all_phases: Budget investerings faser
+      map: Budget investeringars förslag ligger geografiskt
+      investment_proyects: Lista över investeringsprojekt
+      unfeasible_investment_proyects: Lista över ogenomförbara investeringsprojekt
     investments:
       form:
         tags_label: Taggar
