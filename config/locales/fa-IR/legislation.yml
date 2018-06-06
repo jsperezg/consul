@@ -36,3 +36,30 @@ fa:
         see_text: متن پیش نویس را ببینید
       show:
         loading_comments: بارگذاری نظرات
+        seeing_version: شما در حال دیدن نسخه پیش نویس هستید
+        select_draft_version: پیش نویس را انتخاب کنید
+        select_version_submit: مشاهده کنید
+        updated_at: به روز شده در %{date}
+        see_changes: خلاصه تغییرات را ببینید
+        see_comments: مشاهده همه نظرات
+        text_toc: جدول محتویات
+        text_body: متن
+        text_comments: توضیحات
+    processes:
+      header:
+        additional_info: اطلاعات اضافی
+        description: توضیحات
+        more_info: کسب اطلاعات بیشتر و زمینه
+      proposals:
+        empty_proposals: پیشنهادی وجود ندارد
+      debate:
+        empty_questions: هیچ سوالی وجود ندارد
+        participate: مشارکت در بحث
+      index:
+        filter: فیلتر
+        filters:
+          open: فرآیندهای باز
+          next: بعدی
+          past: گذشته
+        no_open_processes: فرایندهای باز وجود ندارد
+        no_next_processes: فرایندها برنامه ریزی نشده است
