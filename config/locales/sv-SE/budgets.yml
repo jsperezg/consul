@@ -51,6 +51,12 @@ sv:
       map: Budget investeringars förslag ligger geografiskt
       investment_proyects: Lista över investeringsprojekt
       unfeasible_investment_proyects: Lista över ogenomförbara investeringsprojekt
+      not_selected_investment_proyects: Lista över investeringsprojekt som inte valts till lottning
+      finished_budgets: Färdiga medborgarbudgetar
+      see_results: Se resultat
+      section_footer:
+        title: Hjälp med medborgarbudgetar
+        description: Med medborgarbudgeterna kan medborgarna hantera den kommunala budgeten genom att rösta på investeringsprojekt.
     investments:
       form:
         tags_label: Taggar
