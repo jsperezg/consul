@@ -249,7 +249,7 @@ de:
       submit_button: Vorschlag zurückziehen
     retire_options:
       unfeasible: Undurchführbar
-      done: Fertig
+      done: Erledigt
       other: Andere
     form:
       geozone: Rahmenbedingungen
@@ -258,7 +258,7 @@ de:
       proposal_summary: Zusammenfassung Vorschlag
       proposal_text: Vorschlagstext
       proposal_title: Titel des Vorschlages
-      proposal_video_url: Link zu externen Videos
+      proposal_video_url: Link zu externem Video
       proposal_video_url_note: Füge einen YouTube oder Vimeo Link hinzu
       tag_category_label: "Kategorien"
       tags_instructions: "Markieren Sie den Vorschlag. Sie können einen Tag auswählen oder selbst erstellen"
@@ -294,9 +294,9 @@ de:
       top_link_proposals: Die am meisten unterstützten Vorschläge nach Kategorie
       section_header:
         title: Vorschläge
-        help: Hilfe über Vorschläge
+        help: Hilfe zu Vorschlägen
       section_footer:
-        title: Hilfe über Vorschläge
+        title: Hilfe zu Vorschlägen
     new:
       form:
         submit_button: Vorschlag erstellen
@@ -365,7 +365,7 @@ de:
       no_polls: "Keine offenen Abstimmungen."
     show:
       already_voted_in_web: "Sie haben bereits an der Umfrage teilgenommen. Falls Sie erneut abstimmen, wird Ihre Wahl überschrieben."
-      back: Zurück zur Bewertung
+      back: Zurück zur Abstimmung
       cant_answer_not_logged_in: "Sie müssen sich %{signin} oder %{signup}, um fortfahren zu können."
       comments_tab: Kommentare
       login_to_comment: Sie müssen sich %{signin} oder %{signup}, um einen Kommentar hinterlassen zu können.
