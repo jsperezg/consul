@@ -199,8 +199,8 @@ de:
         additional_info: zusätzliche Information
         start_date: Startdatum
         end_date: Enddatum
-        debate_start_date: Debatte-Startdatum
-        debate_end_date: Debatte-Enddatum
+        debate_start_date: Startdatum Diskussion
+        debate_end_date: Enddatum Diskussion
         draft_publication_date: Entwurf-Veröffentlichungsdatum
         allegations_start_date: Behauptung-Startdatum
         allegations_end_date: Behauptung-Enddatum
