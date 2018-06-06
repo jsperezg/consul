@@ -14,3 +14,25 @@ fa:
         publish_comment: نشر نظر
       form:
         phase_not_open: این فاز  باز نمی شود.
+        login_to_comment: برای نظر دادن شما باید %{signin} یا %{signup} کنید .
+        signin: ورود به برنامه
+        signup: ثبت نام
+      index:
+        title: توضیحات
+        comments_about: تعداد نظرات
+        see_in_context: در چهار چوب ببینید
+        comments_count:
+          one: "%{count} نظر"
+          other: "%{count} نظرات"
+      show:
+        title: توضیح
+      version_chooser:
+        seeing_version: نظرات برای نسخه
+        see_text: متن پیش نویس را ببینید
+    draft_versions:
+      changes:
+        title: تغییرات
+        seeing_changelog_version: تغییرات نسخه خلاصه
+        see_text: متن پیش نویس را ببینید
+      show:
+        loading_comments: بارگذاری نظرات
