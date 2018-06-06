@@ -870,18 +870,58 @@ sv:
         assigned_valuators: Tilldelade värderingsorgan
         back: Tillbaka
         classification: Klassificering
+        heading: "Investeringsprojekt %{id}"
         edit: Redigera
+        edit_classification: Redigera klassificering
+        association_name: Förening
+        by: Av
+        sent: Skickat
+        geozone: Omfattning
+        dossier: Rapport
+        edit_dossier: Redigera rapport
         tags: Taggar
+        undefined: Odefinierad
       edit:
+        classification: Klassificering
+        assigned_valuators: Värderingsorgan
+        submit_button: Uppdatera
         tags: Taggar
+        tags_placeholder: "Skriv de etiketter du vill ska separeras med kommatecken ()"
+        undefined: Odefinierad
       summary:
+        title: Sammanfattning för investeringsprojekt
+        title_proposals_with_supports: Sammanfattning för investeringsprojekt med stöd
+        geozone_name: Omfattning
+        finished_and_feasible_count: Klar och genomförbar
+        finished_and_unfeasible_count: Klar och genomförbar
+        finished_count: Avslutat
+        in_evaluation_count: Utvärderas
         total_count: Totalt
         cost_for_geozone: Kostnad
     geozones:
       index:
+        title: Distrikt
+        create: Skapa distrikt
         edit: Redigera
+        delete: Ta bort
       geozone:
         name: Namn
+        external_code: Extern kod
+        census_code: Folkräkningskod
+        coordinates: Koordinater
+      errors:
+        form:
+          error:
+            one: "fel förhindrade att detta distrikt kunde sparas"
+            other: 'fel förhindrade att detta distrikt kunde sparas'
+      edit:
+        form:
+          submit_button: Spara ändringar
+        editing: Redigerar distrikt
+        back: Gå tillbaka
+      new:
+        back: Gå tillbaka
+        creating: Skapa distrikt
     signature_sheets:
       name: Namn
     stats:
@@ -889,18 +929,48 @@ sv:
         total: Totalt
       proposal_notifications:
         total: Totalt
+      polls:
+        total_participants: Totalt antal deltagare
+        poll_questions: "Frågor från Enkät: %{poll}"
+        table:
+          poll_name: Omröstning
+          question_name: Fråga
+          origin_web: Webbdeltagare
+          origin_total: Totalt antal deltagare
     tags:
+      create: Skapa ämne
+      destroy: Förstör ämne
       index:
+        add_tag: Lägg till ett nytt förslag till ämne
+        title: Ämnesförslag
         topic: Ämne
+      name:
+        placeholder: Skriv namnet på ämnet
     users:
       columns:
         name: Namn
         email: E-post
+        document_number: Dokumentnummer
         roles: Roller
+        verification_level: Kontroll nivå
       index:
         title: Användare
+        no_users: Det finns inga användare.
+      search:
+        placeholder: Sök användare med e-postadress, namn eller dokument
+        search: Sök
+    verifications:
+      index:
+        phone_not_given: Telefon inte angiven
+        sms_code_not_confirmed: Sms-kod inte bekräftad
+        title: Ofullständiga kontroller
     site_customization:
       content_blocks:
+        form:
+          content_blocks_information: Information om innehållsblock
+          content_block_about: Du kan skapa HTML innehållsblock som ska infogas i sidhuvudet eller sidfoten på din KONSUL.
+          content_block_top_links_html: "<strong>header block (top_links)</strong> är block av länkar som måste ha detta format:"
+          content_block_footer_html: "<strong>sidfot block</strong> kan ha valfritt format och kan användas för att infoga Javascript, CSS eller anpassade HTML."
         errors:
           form:
             error: Fel
