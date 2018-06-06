@@ -144,3 +144,59 @@ fa:
   geozones:
     none: تمام شهر
     all: تمام مناطق
+  proposals:
+    show:
+      title_video_url: "ویدیوهای خارجی"
+      author: نویسنده
+    update:
+      form:
+        submit_button: ذخیره تغییرات
+  polls:
+    all: "همه"
+    index:
+      filters:
+        current: "بازکردن"
+      no_geozone_restricted: "تمام شهر"
+      geozone_restricted: "نواحی"
+    show:
+      signin: ورود به برنامه
+      signup: ثبت نام
+      verify_link: "حساب کاربری خودراتایید کنید\n"
+      more_info_title: "اطلاعات بیشتر"
+      documents: اسناد
+      videos: "ویدیوهای خارجی"
+      info_menu: "اطلاعات"
+      results_menu: "نتایج شما"
+      stats:
+        title: "مشارکت در بحث"
+        total_participation: "کل شرکت کنندگان"
+      results:
+        title: "سوالات"
+  poll_questions:
+    create_question: "ایجاد سوال"
+  proposal_notifications:
+    new:
+      title_label: "عنوان"
+  shared:
+    edit: 'ویرایش'
+    save: 'ذخیره کردن'
+    delete: حذف
+    "yes": "بله"
+    "no": "نه"
+    search_results: "جستجو نتایج "
+    advanced_search:
+      from: "از \n"
+      search: 'فیلتر'
+    back: برگرد
+    check: انتخاب
+    check_all: همه
+    hide: پنهان کردن
+    print:
+      print_button: این اطلاعات را چاپ کنید
+    search: جستجو
+    show: نمایش
+    suggest:
+      debate:
+        see_all: "همه را ببین\n"
+      budget_investment:
+        see_all: "همه را ببین\n"
