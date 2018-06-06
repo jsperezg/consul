@@ -36,6 +36,27 @@ fa:
       selecting: پذیرش پروژه
       valuating: ارزیابی پروژه
       publishing_prices: انتشار قیمت پروژه
+      balloting: رای گیری پروژه ها 
+      reviewing_ballots: بررسی آراء
+      finished: بودجه به پایان رسید
+    index:
+      title: بودجه مشارکتی
+      empty_budgets: هیچ بودجه ای وجود ندارد.
+      section_header:
+        icon_alt: نماد بودجه مشارکتی
+        title: بودجه مشارکتی
+        help: کمک در مورد بودجه مشارکتی
+        all_phases: دیدن تمام مراحل
+      all_phases: مراحل بودجه سرمایه گذاری
+      map: طرح های سرمایه گذاری بودجه جغرافیایی
+      investment_proyects: لیست تمام پروژه های سرمایه گذاری
+      unfeasible_investment_proyects: لیست پروژه های سرمایه گذاری غیرقابل پیش بینی
+      not_selected_investment_proyects: فهرست همه پروژه های سرمایه گذاری که برای رای گیری انتخاب نشده اند
+      finished_budgets: بودجه مشارکتی به پایان رسید
+      see_results: مشاهده نتایج
+      section_footer:
+        title: کمک در مورد بودجه مشارکتی
+        description: شهروندان با استفاده از بودجه مشارکتی تصمیم می گیرند کدام پروژه ها توسط همسایگان تعیین می شود و بخشی از بودجه شهرداری است.
     investments:
       form:
         tag_category_label: "دسته بندی ها\n"
@@ -43,3 +64,24 @@ fa:
       index:
         search_form:
           button: جستجو
+          title: جستجو
+      show:
+        supports: پشتیبانی ها
+        votes: آرا
+        price: قیمت
+        comments_tab: توضیحات
+        milestones_tab: نقطه عطف
+        no_milestones: نقاط قوت را مشخص نکرده اید
+        milestone_publication_date: "منتشر شده\n%{publication_date}"
+        author: نویسنده
+        project_unfeasible_html: 'این پروژه سرمایه گذاری <strong> به عنوان غیرقابل توصیف مشخص شده است </ strong> و به مرحله رای گیری نرسیده است'
+        project_not_selected_html: 'این پروژه سرمایه گذاری <strong> انتخاب نشده است </ strong> برای مرحله رای گیری .'
+      wrong_price_format: فقط اعداد صحیح 
+      investment:
+        add: رای
+        already_added: شما قبلا این پروژه سرمایه گذاری را اضافه کرده اید
+        already_supported: شما قبلا این پروژه سرمایه گذاری را پشتیبانی کرده اید. به اشتراک بگذارید
+        support_title: پشتیبانی از این پروژه
+    results:
+      price: قیمت
+      amount_available: بودجه موجود
