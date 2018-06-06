@@ -63,6 +63,7 @@ nl:
         flash:
           success: Voer de bevestigingscode in. Deze heb je via sms ontvangen
       edit:
+        confirmation_code: Voer de code in die je hebt ontvangen op je mobiele telefoon
         submit_button: Verzenden
     user_permission_debates: Deelnemen aan discussies
     user_permission_proposal: Nieuwe voorstellen indienen
