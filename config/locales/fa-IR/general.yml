@@ -200,3 +200,73 @@ fa:
         see_all: "همه را ببین\n"
       budget_investment:
         see_all: "همه را ببین\n"
+      proposal:
+        see_all: "همه را ببین\n"
+    share: "اشتراک گذاری\n"
+  spending_proposals:
+    form:
+      geozone: حوزه عملیات
+      submit_buttons:
+        create: ایجاد شده
+        new: ایجاد شده
+    index:
+      unfeasible: سرمایه گذاری غیر قابل پیش بینی
+      search_form:
+        button: جستجو
+        placeholder: پروژه سرمایه گذاری
+        title: جستجو
+      search_results:
+        one: "حاوی اصطلاح%{search_term}"
+        other: "حاوی اصطلاح%{search_term}"
+      sidebar:
+        geozones: حوزه عملیات
+        feasibility: "امکان پذیری\n"
+        unfeasible: غیر قابل پیش بینی
+      start_spending_proposal: هیچ پروژه سرمایه گذاری وجود ندارد.
+    new:
+      start_new: ایجاد  هزینه پیشنهاد
+    show:
+      author_deleted: کاربر حذف شد
+      share: "اشتراک گذاری\n"
+    wrong_price_format: فقط اعداد صحیح 
+    spending_proposal:
+      spending_proposal: پروژه سرمایه گذاری
+      support: پشتیبانی
+      support_title: پشتیبانی از این پروژه
+      supports:
+        zero: بدون پشتیبانی 
+        one: 1 پشتیبانی
+        other: "%{count}پشتیبانی"
+  stats:
+    index:
+      visits: بازديد
+      debates: مباحثه
+      proposals: طرح های پیشنهادی
+      comments: توضیحات
+      proposal_votes: پیشنهادات رای دهی
+      votes: کل رای
+      unverified_users: کاربران تایید نشده
+  users:
+    direct_messages:
+      new:
+        title_label: عنوان
+        authenticate: شما باید %{signin} یا %{signup} کنید برای ادامه دادن.
+        signin: ورود به برنامه
+        signup: ثبت نام
+    show:
+      deleted: حذف
+      proposals: طرح های پیشنهادی
+      debates: مباحثه
+      budget_investments: بودجه سرمایه گذاری ها 
+      comments: توضیحات
+      actions: اقدامات
+      filters:
+        comments:
+          one: 1 نظر
+          other: "%{count} نظرات"
+        debates:
+          one: ۱ بحث
+          other: "%{count} بحث"
+        proposals:
+          one: ۱ طرح  پیشنهادی
+          other: "%{count} طرح  پیشنهادی"
