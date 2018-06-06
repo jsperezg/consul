@@ -1,8 +1,22 @@
 nl:
   verification:
     alert:
-      lock: U heeft het maximale aantal inlogpogingen bereikt. Probeer het later opnieuw.
+      lock: Je hebt het maximale aantal inlogpogingen bereikt. Probeer het later opnieuw.
+    back: Ga terug naar mijn account
+    email:
+      create:
+        alert:
+          failure: Er was een probleem met het verzenden van een e-mail naar je account
+        flash:
+          success: 'We hebben een bevestigingsmail naar je account gestuurd: %{email}'
+      show:
+        alert:
+          failure: De verificatiecode is onjuist
+        flash:
+          success: Je bent een geverifieerde gebruiker
     letter:
+      alert:
+        unconfirmed_code: Je hebt de bevestigingscode nog niet ingevuld
       new:
         user_permission_info: Met uw account kunt u...
     residence:
