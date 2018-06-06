@@ -2,7 +2,7 @@ de:
   account:
     show:
       change_credentials_link: Meine Anmeldeinformationen ändern
-      email_on_comment_label: Benachrichtigen Sie mich per E-Mail, wenn jemand meine Vorschläge oder Debatten kommentiert
+      email_on_comment_label: Benachrichtigen Sie mich per E-Mail, wenn jemand meine Vorschläge oder Diskussion kommentiert
       email_on_comment_reply_label: Benachrichtigen Sie mich per E-Mail, wenn jemand auf meine Kommentare antwortet
       erase_account_link: Mein Konto löschen
       finish_verification: Prüfung abschließen
