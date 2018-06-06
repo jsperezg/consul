@@ -725,10 +725,24 @@ sv:
           title: Svar
           description: Beskrivning
           videos: Videoklipp
+          video_list: Videolista
+          images: Bilder
+          images_list: Bilder lista
+          documents: Dokument
+          documents_list: Lista med dokument
           document_title: Titel
+          document_actions: Åtgärder
     answers:
+      new:
+        title: Nytt svar
       show:
         title: Titel
+        description: Beskrivning
+        images: Bilder
+        images_list: Bildlista
+        edit: Redigera svar
+      edit:
+        title: Redigera svar
       videos:
         index:
           title: Videoklipp
@@ -798,13 +812,33 @@ sv:
       level_0: Inte officiell
       level_1: Nivå 1
       level_2: Nivå 2
+      level_3: Nivå 3
+      level_4: Nivå 4
+      level_5: Nivå 5
+      search:
+        edit_official: Redigera offentliga kontor
+        make_official: Gör officiellt
+        title: 'Officiella positioner: användarsökning'
+        no_results: Officiella positioner hittades inte.
     organizations:
       index:
+        filter: Filtrera
         filters:
           all: Alla
+          pending: Väntande
+          rejected: Avvisade
+          verified: Verifierad
+        hidden_count_html:
+          one: Det finns också <strong>en organisation</strong> med inga användare eller med en dold användare.
+          other: Det finns också <strong>%{count} en organisationer</strong> med inga användare eller med en dold användare.
         name: Namn
         email: E-post
         phone_number: Telefon
+        responsible_name: Ansvarig
+        status: Status
+        no_organizations: Det finns inga organisationer.
+        reject: Avvisa
+        rejected: Avvisade
     proposals:
       index:
         filters:
@@ -813,11 +847,29 @@ sv:
       title: Titel
     spending_proposals:
       index:
+        tags_filter_all: Alla Taggar
         filters:
           valuation_open: Pågående
+          without_admin: Utan tilldelade admin
+          managed: Hanterade
+          valuating: Under bedömning
+          valuation_finished: Bedömning avslutad
           all: Alla
+        title: Investeringsprojekt för medborgarbudget
+        assigned_admin: Utsedd administratör
+        no_admin_assigned: Ingen admin tilldelad
+        no_valuators_assigned: Ingen värderingsorgan som tilldelats
+        summary_link: "Investeringsprojektet Sammanfattning"
+        valuator_summary_link: "Värderingsorgan Sammanfattning"
+        feasibility:
+          feasible: "Genomförbart (%{price})"
+          not_feasible: "Ej genomförbart"
+          undefined: "Odefinierad"
       show:
+        assigned_admin: Utsedd administratör
+        assigned_valuators: Tilldelade värderingsorgan
         back: Tillbaka
+        classification: Klassificering
         edit: Redigera
         tags: Taggar
       edit:
