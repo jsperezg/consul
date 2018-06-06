@@ -23,7 +23,7 @@ de:
         see_in_context: Im Kontext sehen
         comments_count:
           one: "%{count} Kommentar"
-          other: "%{count} Kommentar"
+          other: "%{count} Kommentare"
       show:
         title: Kommentar
       version_chooser:
@@ -76,7 +76,7 @@ de:
         see_latest_comments_title: Kommentar zu diesem Prozess
       shared:
         key_dates: Die wichtigsten Termine
-        debate_dates: Debatte
+        debate_dates: Diskussion
         draft_publication_date: Veröffentlichungsentwurf
         allegations_dates: Behauptungen
         result_publication_date: Veröffentlichung Endergebnis
@@ -91,13 +91,13 @@ de:
       question:
         comments:
           zero: Keine Kommentare
-        debate: Debatte
+        debate: Diskussion
       show:
         answer_question: Antwort einreichen
         next_question: Nächste Frage
         first_question: Erste Frage
         share: Teilen
-        title: Kollaboratives Gesetzgebungsverfahren
+        title: kollaboratives Gesetzgebungsverfahren
       participation:
         phase_not_open: Diese Phase ist noch nicht geöffnet
         organizations: Organisationen dürfen sich nicht an der Diskussion beteiligen
