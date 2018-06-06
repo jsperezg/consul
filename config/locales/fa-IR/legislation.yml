@@ -72,3 +72,55 @@ fa:
           title: کمک در مورد فرآیندهای قانونی
           description: قبل از تصویب یک حکم یا اقدام شهری، در بحث ها و پروسه ها شرکت کنید. نظر شما توسط شورای شهر در نظر گرفته می شود.
           help_text_1: "در مراحل مشارکتی، شورای شهر شهروندان خود را به مشارکت در تهیه پیش نویس و اصلاح مقررات،تأثیرگذار بر شهر و توانایی دادن نظرات خود در خصوص اقداماتی که قصد دارد انجام دهد،ترغیب می کند."
+          help_text_2: "افرادی که در %{org}ثبت نام کرده اند می توانند با مشارکت در مشاغل عمومی از مقررات، مقررات و دستورالعمل های جدید شرکت کنند. نظرات شما توسط منطقه مربوطه مورد تجزیه و تحلیل قرار گرفته و برای تهیه پیش نویس دستورات در نظر گرفته می شود."
+          help_text_3: "شورای شهر همچنین فرآیندهایی را برای دریافت کمک و نظرات در مورد اقدامات شهری باز می کند."
+      phase_not_open:
+        not_open: این مرحله هنوز باز نشده است
+      phase_empty:
+        empty: هنوز منتشر نشده است
+      process:
+        see_latest_comments: مشاهده آخرین نظرات
+        see_latest_comments_title: اظهار نظر در مورد این روند
+      shared:
+        key_dates: تاريخهاي مهم
+        debate_dates: بحث
+        draft_publication_date: انتشار پیش نویس
+        allegations_dates: اتهامات
+        result_publication_date: انتشار نتیجه نهایی
+        proposals_dates: طرح های پیشنهادی
+    questions:
+      comments:
+        comment_button: نشر پاسخ
+        comments_title: پاسخ های باز
+        comments_closed: فاز بسته
+        form:
+          leave_comment: ' پاسخ شما'
+      question:
+        comments:
+          zero: بدون نظر
+          one: "%{count} نظر"
+          other: "%{count} نظرات"
+        debate: بحث
+      show:
+        answer_question: ارسال پاسخ
+        next_question: سوال بعدی
+        first_question: سوال اول
+        share: "اشتراک گذاری\n"
+        title: روند قانونی همکاری
+      participation:
+        phase_not_open: این مرحله هنوز باز نشده است
+        organizations: سازمانها مجاز به شرکت در بحث نیستند
+        signin: ورود به برنامه
+        signup: ثبت نام
+        unauthenticated: شما باید %{signin} یا %{signup} کنید برای نظر دادن.
+        verified_only: فقط کاربران تأیید شده میتوانند شرکت کنند%{verify_account}
+        verify_account: "حساب کاربری خودراتایید کنید\n"
+        debate_phase_not_open: مرحله مذاکره به پایان رسیده است و پاسخ هنوز پذیرفته نشده است
+    shared:
+      share: "اشتراک گذاری\n"
+      share_comment: نظر در%{version_name}از پیش نویس پروسه %{process_name}
+    proposals:
+      form:
+        tags_label: "دسته بندی ها\n"
+      not_verified: "برای  رای به پیشنهادات%{verify_account}"
+      closed: "این فرآیند بسته شده است و نمی توانید رای بدهید."
