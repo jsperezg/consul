@@ -7,15 +7,15 @@ de:
       new_password: "Neues Passwort"
       updated: "Passwort erfolgreich aktualisiert"
     confirmations:
-      confirmed: "Ihr Konto wurde bestätigt."
+      confirmed: "Ihr Benutzerkonto wurde bestätigt."
       send_instructions: "In wenigen Minuten erhalten Sie eine E-Mail mit Anweisungen zum Zurücksetzen Ihres Passworts."
       send_paranoid_instructions: "Wenn sich Ihre E-Mail-Adresse in unserer Datenbank befindet, erhalten Sie in wenigen Minuten eine E-Mail mit Anweisungen zum Zurücksetzen Ihres Passworts."
     failure:
       already_authenticated: "Sie sind bereits angemeldet."
-      inactive: "Ihr Konto wurde noch nicht aktiviert."
+      inactive: "Ihr Benutzerkonto wurde noch nicht aktiviert."
       invalid: "Ungültiger %{authentication_keys} oder Passwort."
       locked: "Ihr Konto wurde gesperrt."
-      last_attempt: "Sie haben noch einen weiteren Versuch bevor Ihr Konto gesperrt wird."
+      last_attempt: "Sie haben noch einen weiteren Versuch bevor Ihr Benutzerkonto gesperrt wird."
       not_found_in_database: "Ungültiger %{authentication_keys} oder Passwort."
       timeout: "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an, um fortzufahren."
       unauthenticated: "Sie müssen sich anmelden oder registrieren, um fortzufahren."
@@ -38,10 +38,10 @@ de:
       updated_not_active: "Ihr Passwort wurde erfolgreich geändert."
     registrations:
       signed_up: "Willkommen! Sie wurden authentifiziert."
-      signed_up_but_inactive: "Ihre Registrierung war erfolgreich, aber Sie konnten nicht angemeldet werden, weil Ihr Konto nicht aktiviert wurde."
-      signed_up_but_locked: "Ihre Registrierung war erfolgreich, aber Sie konnten nicht angemeldet werden, weil Ihr Konto gesperrt ist."
-      signed_up_but_unconfirmed: "Sie haben eine Nachricht mit einem Bestätigungslink gesendet. Klicken Sie bitte auf diesen Link, um Ihr Konto zu aktivieren."
-      update_needs_confirmation: "Ihr Konto wurde erfolgreich aktualisiert. Allerdings müssen wir nun Ihre neue E-Mail Adresse verifizieren. Bitte überprüfen Sie Ihre E-Mails und klicken Sie auf den Link zur Bestätigung Ihrer neuen E-Mail Adresse."
+      signed_up_but_inactive: "Ihre Registrierung war erfolgreich, aber Sie konnten nicht angemeldet werden, weil Ihr Benutzerkonto nicht aktiviert wurde."
+      signed_up_but_locked: "Ihre Registrierung war erfolgreich, aber Sie konnten nicht angemeldet werden, weil Ihr Benutzerkonto gesperrt ist."
+      signed_up_but_unconfirmed: "Sie haben eine Nachricht mit einem Bestätigungslink gesendet. Klicken Sie bitte auf diesen Link, um Ihr Benutzerkonto zu aktivieren."
+      update_needs_confirmation: "Ihr Benutzerkonto wurde erfolgreich aktualisiert. Allerdings müssen wir nun Ihre neue E-Mail Adresse verifizieren. Bitte überprüfen Sie Ihre E-Mails und klicken Sie auf den Link zur Bestätigung Ihrer neuen E-Mail Adresse."
       updated: "Ihr Konto wurde erfolgreich aktualisiert."
     sessions:
       signed_in: "Sie haben sich erfolgreich angemeldet."
