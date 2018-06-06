@@ -19,10 +19,42 @@ fa:
           random: رمز عبور تصادفی ایجاد کنید
           save: ذخیره کردن
           print: چاپ رمز ورود
+          print_help: شما می توانید رمز عبور را پس از ذخیره شدن چاپ کنید.
     account_info:
       change_user: تغییر کاربر
-      document_type_label: 'نوع سند'
+      document_number_label: 'شماره سند:'
+      document_type_label: 'نوع سند:'
+      email_label: 'پست الکترونیکی:'
+      identified_label: 'شناخته شده به عنوان:'
+      username_label: 'نام کاربری:'
+    check: بررسی
+    dashboard:
+      index:
+        title: مدیریت
+        info: "در اینجا شما می توانید  کاربران را از طریق تمام اقدامات ذکر شده در منوی سمت چپ مدیریت کنید.\n"
+    document_number: شماره سند
+    document_type_label: نوع سند
+    document_verifications:
+      already_verified: این حساب کاربری قبلا تأیید شده است
+      has_no_account_html: برای ایجاد یک حساب، به%{link} بروید و در قسمت <b> «ثبت نام» </ b> در قسمت بالا سمت چپ صفحه کلیک کنید.
+      link: کنسول
+      in_census_has_following_permissions: 'این کاربر می تواند در وب سایت با مجوزهای زیر شرکت کند:'
+      not_in_census: این سند ثبت نشده است.
+      not_in_census_info: 'شهروندان که در سرشماری نیستند می توانند در وب سایت با مجوزهای زیر شرکت کنند:'
+      please_check_account_data: لطفا بررسی کنید که داده های حساب کاربری بالا صحیح است.
+      title: مدیریت کاربر
+      under_age: "شما سن قانونی برای تأیید حساب کاربری خود ندارید"
+      verify: تأیید
+    email_label: پست الکترونیکی
+    date_of_birth: تاریخ تولد
+    email_verifications:
+      already_verified: حساب شما قبلا تایید شده است.
+      choose_options: 'لطفا یکی از گزینه های زیر را انتخاب کنید:'
+      document_found_in_census: این سند در سرشماری یافت شد، اما هیچ حساب کاربری مربوط به آن نیست.
+      document_mismatch: 'این ایمیل متعلق به کاربر است که در حال حاضر دارای شناسه: %{document_number}(%{document_type})'
     menu:
+      print_proposals: چاپ طرح
+      support_proposals: پشتیبانی از طرح های پیشنهادی
       create_spending_proposal: ایجاد  هزینه پیشنهاد
       print_spending_proposals: چاپ پیشنهادات هزینه
       support_spending_proposals: پشتیبانی از پیشنهادات هزینه
