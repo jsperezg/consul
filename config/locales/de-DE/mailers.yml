@@ -22,10 +22,10 @@ de:
     proposal_notification_digest:
       share: Vorschlag teilen
       comment: Vorschlag kommentieren
-      unsubscribe_account: Mein Konto
+      unsubscribe_account: Mein Benutzerkonto
     direct_message_for_receiver:
       reply: Antwort an %{sender}
-      unsubscribe_account: Mein Konto
+      unsubscribe_account: Mein Benutzerkonto
     direct_message_for_sender:
       subject: "Sie haben eine private Nachricht versendet"
     user_invite:
