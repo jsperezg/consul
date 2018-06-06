@@ -1033,11 +1033,22 @@ sv:
         spending_proposals_title: Förslag på utgifter
         budgets_title: Medborgarbudget
         visits_title: Besök
+        direct_messages: Direktmeddelanden
+        proposal_notifications: Förslagsnotifikationer
+        incomplete_verifications: Ofullständiga verifieringar
+        polls: Omröstningar
       direct_messages:
+        title: Direktmeddelanden
         total: Totalt
+        users_who_have_sent_message: Användare som har skickat privata meddelanden
       proposal_notifications:
+        title: Förslagsnotifikationer
         total: Totalt
+        proposals_with_notifications: Förslag med notifikationer
       polls:
+        title: Opinionsundersökningsstatistik
+        all: Omröstningar
+        web_participants: Webbdeltagare
         total_participants: Totalt antal deltagare
         poll_questions: "Frågor från Enkät: %{poll}"
         table:
