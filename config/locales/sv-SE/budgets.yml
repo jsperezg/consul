@@ -2,10 +2,20 @@ sv:
   budgets:
     ballots:
       show:
+        title: Din valsedel
+        amount_spent: Spenderat belopp
+        remaining: "Du har fortfarande <span>%{amount}</span> att investera."
         no_balloted_group_yet: "Du har inte röstat på denna grupp ännu, gå och rösta!"
+        remove: Ta bort röst
+        voted_html:
+          one: "Du har röstat <span></span> investeringar."
+          other: "Du har röstat <span>%{count}</span> investeringar."
         voted_info_html: "Du kan ändra din röst på någon tid förrän i slutet av den här fasen.<br> Inget behov av att spendera alla pengar du har tillgängliga."
         zero: Har du inte röstat i ett investeringsprojekt.
       reasons_for_not_balloting:
+        not_logged_in: Du måste %{signin} eller %{signup} för att kunna lämna en kommentar.
+        not_verified: Endast godkända användare kan rösta om investeringar; %{verify_account}.
+        organization: Organisationer är inte tillåtna att rösta
         not_selected: Omarkerade investeringsprojekt som inte stöds
     investments:
       form:
