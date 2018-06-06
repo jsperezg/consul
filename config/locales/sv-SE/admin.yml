@@ -13,6 +13,7 @@ sv:
       unmark_featured: Ta bort stjärnmarkering
       edit: Redigera
       configure: Inställningar
+      delete: Ta bort
     banners:
       index:
         title: Banner
@@ -123,6 +124,7 @@ sv:
       winners:
         calculate: Beräkna vinnande investeringar
         calculated: Vinnare beräknas, kan det ta en minut.
+        recalculate: Omberäkna vinnarinvesteringar
     budget_phases:
       edit:
         start_date: Startdatum
@@ -170,6 +172,7 @@ sv:
         assigned_admin: Utsedd administratör
         no_admin_assigned: Ingen admin tilldelad
         no_valuators_assigned: Ingen värderingsorgan som tilldelats
+        no_valuation_groups: Inga värderingsgrupper tilldelade
         feasibility:
           feasible: "Genomförbart (%{price})"
           unfeasible: "Ej genomförbart"
@@ -181,11 +184,14 @@ sv:
         table_supports: "Stöder"
         table_admin: "Administratör"
         table_valuator: "Värderingsorgan"
+        table_valuation_group: "Värderingsgrupp"
         table_geozone: "Verksamhetsområde"
         table_feasibility: "Genomförbarhet"
         table_valuation_finished: "Val. Fin."
         table_selection: "Vald"
+        table_evaluation: "Visa till värderingsorgan"
         table_incompatible: "Oförenlig"
+        cannot_calculate_winners: Budgeten måste stå i fas "lottningsprojekt", "granskar valsedlar" eller "färdiga budgeter" för att kunna beräkna vinnarprojekt
       show:
         assigned_admin: Utsedd administratör
         assigned_valuators: Ansvarig utvärderare
@@ -222,6 +228,7 @@ sv:
         documents: "Dokument"
         see_documents: "Se dokument (%{count})"
         no_documents: "Utan dokument"
+        valuator_groups: "Värderingsorgan"
       edit:
         classification: Klassificering
         compatibility: Kompatibilitet
@@ -235,6 +242,7 @@ sv:
         tags: Taggar
         tags_placeholder: "Skriv de etiketter du vill ska separeras med kommatecken ()"
         undefined: Odefinierad
+        user_groups: "Grupper"
       search_unfeasible: Sök omöjligt
     milestones:
       index:
@@ -248,9 +256,13 @@ sv:
         image: "Bild"
         show_image: "Visa bild"
         documents: "Dokument"
+      form:
+        add_language: Lägg till språk
+        remove_language: Ta bort språk
       new:
         creating: Skapa milstolpe
         date: Datum
+        description: Beskrivning
       edit:
         title: Redigera milstolpe
       create:
@@ -470,19 +482,61 @@ sv:
       hidden_debates: Gömda debatter
       hidden_proposals: Gömda förslag
       hidden_users: Dolda användare
+      administrators: Administratörer
+      managers: Chefer
+      moderators: Moderatorer
+      emails: Skickar iväg e-postmeddelanden
+      newsletters: Nyhetsbrev
+      emails_download: E-post Ladda ner
+      valuators: Värderingsorgan
+      poll_officers: Opinionsmän
+      polls: Omröstningar
+      poll_booths: Båslägen
+      poll_booth_assignments: Bås uppgifter
+      poll_shifts: Hantera växlingar
+      officials: Tjänstemän
+      organizations: Organisationer
+      settings: Konfigurationsinställningar
+      spending_proposals: Investeringsförslag
+      stats: Statistik
+      signature_sheets: Underskrifter
+      site_customization:
+        homepage: Hemsida
+        pages: Anpassade sidor
+        images: Anpassade bilder
+        content_blocks: Anpassade innehållsblock
+      title_categories: Kategorier
+      title_moderated_content: Modererat innehåll
+      title_budgets: Budgetar
+      title_polls: Omröstningar
+      title_profiles: Profiler
+      title_banners: Banners
+      title_site_customization: Webbplatsanpassning
+      legislation: Kollaborativ lagstiftning
       users: Användare
     administrators:
       index:
+        title: Administratörer
         name: Namn
         email: E-post
+        no_administrators: Det finns inga administratörer.
       administrator:
         add: Lägg till
+        delete: Ta bort
+        restricted_removal: "Tyvärr, du kan inte ta bort dig själv från administratörerna"
+      search:
+        title: "Administratörer: Användare Sök"
     moderators:
       index:
+        title: Moderatorer
         name: Namn
         email: E-post
+        no_moderators: Det finns inga moderatorer.
       moderator:
         add: Lägg till
+        delete: Ta bort
+      search:
+        title: 'Moderatorer: Användarsökning'
     newsletters:
       delete_success: Nyhetsbrev raderad
       index:
@@ -643,8 +697,34 @@ sv:
       show:
         table_title: "Titel"
     questions:
+      index:
+        select_poll: Välj opinionssökning
+        questions_tab: "Frågor"
+        successful_proposals_tab: "Framgångsrika förslag"
+        create_question: "Skapa fråga"
+        table_proposal: "Förslag"
+        table_question: "Fråga"
+      edit:
+        title: "Redigera frågan"
+      new:
+        title: "Skapa fråga"
+        poll_label: "Omröstning"
+      answers:
+        images:
+          add_image: "Lägg till bild"
+          save_image: "Spara bild"
       show:
+        proposal: Ursprungliga förslaget
+        author: Författare
+        question: Fråga
+        edit_question: Redigera fråga
+        valid_answers: Giltiga svar
+        add_answer: Lägg till svar
+        video_url: Extern video
         answers:
+          title: Svar
+          description: Beskrivning
+          videos: Videoklipp
           document_title: Titel
     answers:
       show:
