@@ -82,6 +82,34 @@ fa:
         already_added: شما قبلا این پروژه سرمایه گذاری را اضافه کرده اید
         already_supported: شما قبلا این پروژه سرمایه گذاری را پشتیبانی کرده اید. به اشتراک بگذارید
         support_title: پشتیبانی از این پروژه
+        supports:
+          zero: بدون پشتیبانی 
+          one: 1 پشتیبانی
+          other: "%{count}پشتیبانی"
+        give_support: پشتیبانی
+      header:
+        check_ballot: رای من را چک کن
+        different_heading_assigned_html: "شما قبلا یک عنوان متفاوت را رأی داده اید: %{heading_link}"
+        change_ballot: "اگر نظر شما تغییر کند، می توانید رای خود را در%{check_ballot} حذف کنید و دوباره شروع کنید."
+        check_ballot_link: "رای من را چک کن"
+        price: "این عنوان یک بودجه دارد"
+    progress_bar:
+      assigned: "شما اختصاص داده اید:"
+      available: "بودجه موجود"
+    show:
+      group: گروه
+      phase: فاز واقعی
+      unfeasible_title: سرمایه گذاری غیر قابل پیش بینی
+      unfeasible: سرمایه گذاری های غیرقابل پیش بینی را ببینید
+      unselected_title: سرمایه گذاری هایی برای مرحله رای گیری انتخاب نشده اند
+      unselected: دیدن سرمایه گذاری هایی که برای مرحله رای گیری انتخاب نشده اند
+      see_results: مشاهده نتایج
     results:
+      link: نتایج
+      page_title: "%{budget} - نتایج"
+      heading: "نتایج بودجه مشارکتی"
+      heading_selection_title: "توسط منطقه"
+      spending_proposal: عنوان پیشنهاد
+      ballot_lines_count: زمان انتخاب شده است
       price: قیمت
       amount_available: بودجه موجود
