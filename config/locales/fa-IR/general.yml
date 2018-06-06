@@ -78,3 +78,24 @@ fa:
       tags_instructions: برچسب این بحث.
       tags_label: موضوع ها
       tags_placeholder: "برچسبهایی را که میخواهید از آن استفاده کنید، با کاما ('،') جدا کنید"
+    index:
+      featured_debates: "ویژه\n"
+      filter_topic:
+        one: " با موضوع '%{topic} '"
+        other: " با موضوع '%{topic} '"
+      orders:
+        confidence_score: بالاترین امتیاز
+        created_at: جدیدترین
+        hot_score: فعال ترین
+        most_commented: بیشترین نظرات
+        relevance: ارتباط
+        recommendations: توصیه ها
+      search_form:
+        button: جستجو
+        placeholder: جستجوبحث ها ...
+        title: جستجو
+      select_order: "سفارش توسط\n"
+      start_debate: شروع بحث
+      title: مباحثه
+      section_header:
+        title: مباحثه
