@@ -17,11 +17,42 @@ nl:
     letter:
       alert:
         unconfirmed_code: Je hebt de bevestigingscode nog niet ingevuld
+      create:
+        flash:
+          success_html: Bedankt voor het aanvragen van je <b>veiligheidscode (deze is alleen nodig voor de definitieve stemming)</b>. Binnen een paar dagen sturen we deze code naar het adres wat bij ons bekend is. Please remember that, if you prefer, you can collect your code from any of the %{offices}. aanpassen.
+      edit:
+        see_all: Bekijk voorstellen
+      errors:
+        incorrect_code: De verificatiecode is onjuist
       new:
+        explanation: 'Om deel te nemen aan de definitieve stemming kun je:'
+        go_to_index: Bekijk voorstellen
+        office: Bevestig in een %{office}
+        send_letter: Stuur mij een brief met de code
+        title: Gefeliciteerd!
         user_permission_info: Met uw account kunt u...
+      update:
+        flash:
+          success: Juiste code. Je account is nu geverifieerd
+    redirect_notices:
+      already_verified: Je account is al geverifieerd
+      email_already_sent: We hebben al een e-mail gestuurd met een bevestigingslink. Als je de e-mail niet kunt vinden, dan kun je hier een nieuwe e-mail aanvragen
     residence:
+      alert:
+        unconfirmed_residency: Je hebt je woonplaats nog niet bevestigd
+      create:
+        flash:
+          success: Je woonplaats is bevestigd
       new:
+        date_of_birth: Geboortedatum
+        document_number: Documentnummer
+        document_number_help_title: Help
+        document_type:
+          passport: Paspoort
+          spanish_id: DNI
         document_type_label: Documentsoort
+        error_not_allowed_age: Je bent nog niet oud genoeg om mee te doen
+        error_not_allowed_postal_code: Om te worden geverifieerd, moet je geregistreerd zijn.
         postal_code: Postcode
     sms:
       edit:
