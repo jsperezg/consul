@@ -537,7 +537,20 @@ sv:
         delete: Ta bort
       search:
         title: 'Moderatorer: Användarsökning'
+    segment_recipient:
+      all_users: Alla användare
+      administrators: Administratörer
+      proposal_authors: Förslagsförfattarna
+      investment_authors: Investeringarsförfattare i den aktuella budgeten
+      feasible_and_undecided_investment_authors: "Författarna till vissa investeringar i den aktuella budgeten som inte överensstämmer med: [värderingen avslutad ogenomförbar"
+      selected_investment_authors: Författarna till utvalda investeringar i den nuvarande budgeten
+      winner_investment_authors: Författarna till utvalda investeringar i den nuvarande budgeten
+      not_supported_on_current_budget: Användare som inte har stöttat investeringar i nuvarande budget
+      invalid_recipients_segment: "Mottagaranvändarens segment är ogiltig"
     newsletters:
+      create_success: Nyhetsbrev har skapats
+      update_success: Nyhetsbrev har uppdaterats
+      send_success: Nyhetsbrev har skickats
       delete_success: Nyhetsbrev raderad
       index:
         title: Nyhetsbrev
@@ -580,6 +593,9 @@ sv:
         description: Beskrivning
         no_description: Ingen beskrivning
         no_valuators: Det finns ingen värderingsorgan.
+        valuator_groups: "Värderingsorgan"
+        group: "Grupp"
+        no_group: "Ingen grupp"
       valuator:
         add: Lägg till värderingsorgan
         delete: Ta bort
@@ -594,6 +610,20 @@ sv:
         in_evaluation_count: Utvärderas
         total_count: Totalt
         cost: Kostnad
+      form:
+        edit_title: "Värderingsorgan: Redigera värderingsman"
+        update: "Uppdatera värderingsorgan"
+        updated: "Värderingsorgan uppdaterat"
+      show:
+        description: "Beskrivning"
+        email: "E-post"
+        group: "Grupp"
+        no_description: "Utan beskrivning"
+        no_group: "Utan grupp"
+    valuator_groups:
+      index:
+        title: "Värderingsorgan"
+        new: "Skapa värderingsgrupp"
     poll_officers:
       index:
         title: Opinionsmän
@@ -971,19 +1001,60 @@ sv:
           content_block_about: Du kan skapa HTML innehållsblock som ska infogas i sidhuvudet eller sidfoten på din KONSUL.
           content_block_top_links_html: "<strong>header block (top_links)</strong> är block av länkar som måste ha detta format:"
           content_block_footer_html: "<strong>sidfot block</strong> kan ha valfritt format och kan användas för att infoga Javascript, CSS eller anpassade HTML."
+        create:
+          notice: Innehållsblock har lyckats skapas
+          error: Innehållsblocket kunde inte skapas
+        update:
+          notice: Innehållsblock har lyckats skapas
+          error: Innehållsblocket kunde inte uppdateras
+        destroy:
+          notice: Innehållsblock har lyckats raderas
+        edit:
+          title: Redigerar innehållsblock
         errors:
           form:
             error: Fel
+        index:
+          create: Skapa nya innehållsblock
+          delete: Radera block
+          title: Innehållsblock
+        new:
+          title: Skapa nya innehållsblock
         content_block:
           body: Innehåll
           name: Namn
       images:
         index:
+          title: Anpassade bilder
+          update: Uppdatera
+          delete: Ta bort
           image: Bild
+        update:
+          notice: Bilden har med framgång uppdaterats
+          error: Bilden kunde inte uppdateras
+        destroy:
+          notice: Bilden har tagits bort
+          error: Bilden kunde inte raderas
       pages:
+        create:
+          notice: Sidan har skapats
+          error: Sidan kunde inte skapas
+        update:
+          notice: Sidan uppdaterades
+          error: Sidan kunde inte uppdateras
+        destroy:
+          notice: Sidan raderades
+        edit:
+          title: Redigerae %{page_title}
         errors:
           form:
             error: Fel
+        form:
+          options: Alternativ
+        index:
+          create: Skapa ny sida
+          delete: Ta bort sida
+          title: Anpassade sidor
         page:
           title: Titel
           status_draft: Utkast
