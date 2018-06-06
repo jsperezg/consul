@@ -54,7 +54,14 @@ nl:
         error_not_allowed_age: Je bent nog niet oud genoeg om mee te doen
         error_not_allowed_postal_code: Om te worden geverifieerd, moet je geregistreerd zijn.
         postal_code: Postcode
+        postal_code_note: Om je account te verifiëren moet je geregistreerd zijn
+        terms: de gebruiksvoorwaarden voor toegang
+        title: Controleer je woonplaats
+        verify_residence: Controleer je woonplaats
     sms:
+      create:
+        flash:
+          success: Voer de bevestigingscode in. Deze heb je via sms ontvangen
       edit:
         submit_button: Verzenden
     user_permission_debates: Deelnemen aan discussies
