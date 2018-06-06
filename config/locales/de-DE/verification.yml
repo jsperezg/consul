@@ -22,10 +22,10 @@ de:
       new:
         go_to_index: Vorschläge anzeigen
         title: Glückwunsch!
-        user_permission_info: Mit Ihrem Konto können Sie...
+        user_permission_info: Mit Ihrem Benutzerkonto können Sie...
       update:
         flash:
-          success: Code bestätigt. Ihr Konto ist nun verifiziert
+          success: Code bestätigt. Ihr Benutzerkonto ist nun verifiziert
     redirect_notices:
       already_verified: Das Benutzerkonto ist bereits verifiziert
       email_already_sent: Wir haben bereits eine E-Mail mit einem Bestätigungslink verschickt. Falls Sie noch keine E-Mail erhalten haben, können Sie hier einen neuen erhalten
@@ -43,7 +43,7 @@ de:
         error_not_allowed_age: Sie haben nicht das erforderliche Alter um teilzunehmen
         error_not_allowed_postal_code: Zur Verifizierung müssen Sie sich registrieren.
         postal_code: Postleitzahl
-        postal_code_note: Sie müssen sich registrieren, um Ihr Konto zu verifizieren
+        postal_code_note: Sie müssen sich registrieren, um Ihr Benutzerkonto zu verifizieren
         title: Wohnsitz bestätigen
         verify_residence: Wohnsitz bestätigen
     sms:
