@@ -75,8 +75,8 @@ de:
           erase_reason_label: Grund
           info: Diese Handlung kann nicht rückgängig gemacht werden. Bitte stellen Sie sicher, dass dies ist, was Sie wollen.
           info_reason: Wenn Sie möchten, hinterlassen Sie uns einen Grund warum Sie sich abmelden möchten(optional)
-          submit: Mein Konto löschen
-          title: Mein Konto löschen
+          submit: Mein Benutzerkonto löschen
+          title: Mein Benutzerkonto löschen
         edit:
           current_password_label: Aktuelles Passwort
           edit: Bearbeiten
