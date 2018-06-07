@@ -270,3 +270,23 @@ fa:
         proposals:
           one: ۱ طرح  پیشنهادی
           other: "%{count} طرح  پیشنهادی"
+  welcome:
+    feed:
+      most_active:
+        proposals: " پیشنهادات فعال"
+        processes: "فرآیندهای باز"
+      see_all_debates: مشاهده تمام بحث ها
+      see_all_proposals: دیدن همه طرحهای پیشنهادی
+      see_all_processes: دیدن تمام فرآیندها
+      process_label: "فرآیند\n"
+      see_process: مشاهده فرآیند
+    cards:
+      title: "ویژه\n"
+    recommended:
+      title: توصیه های که ممکن است مورد علاقه شما باشد
+      help: "این توصیه ها توسط برچسب های بحث و پیشنهادات شما دنبال می شوند."
+      debates:
+        title: بحث های توصیه شده
+        btn_text_link: همه بحث های توصیه شده
+      proposals:
+        title: توصیه های پیشنهادی
