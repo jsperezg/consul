@@ -253,8 +253,13 @@ fa:
         authenticate: شما باید %{signin} یا %{signup} کنید برای ادامه دادن.
         signin: ورود به برنامه
         signup: ثبت نام
+      show:
+        receiver: ارسال پیام به %{receiver}
     show:
       deleted: حذف
+      deleted_debate: این مناظره حذف شده است
+      deleted_proposal: این پیشنهاد حذف شده است
+      deleted_budget_investment: این پروژه سرمایه گذاری حذف شده است
       proposals: طرح های پیشنهادی
       debates: مباحثه
       budget_investments: بودجه سرمایه گذاری ها 
@@ -270,6 +275,16 @@ fa:
         proposals:
           one: ۱ طرح  پیشنهادی
           other: "%{count} طرح  پیشنهادی"
+        budget_investments:
+          one: 1 سرمایه گذاری
+          other: "%{count} سرمایه گذاری"
+        follows:
+          one: 1 دنبال کننده
+          other: "%{count} دنبال کننده"
+      no_activity: کاربر هیچ فعالیت عمومی ندارد
+      no_private_messages: "این کاربر پیام های خصوصی را قبول نمی کند."
+      private_activity: این کاربر تصمیم گرفت لیست فعالیت را خصوصی نگه دارد.
+      send_private_message: "ارسال پیام خصوصی"
   welcome:
     feed:
       most_active:
@@ -290,3 +305,46 @@ fa:
         btn_text_link: همه بحث های توصیه شده
       proposals:
         title: توصیه های پیشنهادی
+        btn_text_link: همه توصیه های پیشنهادی
+      budget_investments:
+        title: سرمایه گذاری های توصیه شده
+      slide: "ببینید %{title}"
+    verification:
+      i_dont_have_an_account: من حسابی ندارم
+      i_have_an_account: "من یک اکانت از قبل دارم\n"
+      question: در حال حاضر یک حساب در %{org_name} دارید؟
+      title: حساب تایید شده
+    welcome:
+      go_to_index: پیشنهادات و بحث ها را ببینید
+      title: "مشارکت\n"
+      user_permission_debates: مشارکت در بحث
+      user_permission_info: با حساب کاربریتان می توانید...
+      user_permission_proposal: ایجاد طرح های جدید
+      user_permission_support_proposal: '* پشتیبانی از طرح های پیشنهادی'
+      user_permission_verify: برای انجام تمام اقدامات حساب کاربری را تایید کنید.
+      user_permission_verify_info: "* تنها برای کاربران در سرشماری."
+      user_permission_verify_my_account: تأیید حساب کاربری
+      user_permission_votes: شرکت در رای گیری نهایی *
+  invisible_captcha:
+    sentence_for_humans: "اگر شما انسان هستند، این زمینه را نادیده بگیرید"
+    timestamp_error_message: "با عرض پوزش،خیلی سریع بود! لطفا دوباره بفرستید."
+  related_content:
+    title: "مطالب مرتبط"
+    add: "اضافه کردن مطالب مرتبط"
+    label: "لینک به مطالب مرتبط"
+    placeholder: "%{url}"
+    help: "شما می توانید لینک %{models} داخل %{org} اضافه کنید."
+    submit: "اضافه کردن"
+    error: "لینک معتبر نیست. به یاد داشته باشید برای شروع با %{url}."
+    error_itself: "لینک معتبر نیست شما نمیتوانید محتوا را به خود اختصاص دهید"
+    success: "مطالب مرتبط جدید اضافه شد"
+    is_related: "¿Is مربوط به محتوای?"
+    score_positive: "بله"
+    score_negative: "نه"
+    content_title:
+      proposal: "طرح های پیشنهادی"
+      debate: "بحث"
+      budget_investment: "بودجه سرمایه گذاری"
+  admin/widget:
+    header:
+      title: مدیر
