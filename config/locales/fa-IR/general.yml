@@ -231,6 +231,7 @@ fa:
       start_new: ایجاد  هزینه پیشنهاد
     show:
       author_deleted: کاربر حذف شد
+      code: 'کد طرح:'
       share: "اشتراک گذاری\n"
     wrong_price_format: فقط اعداد صحیح 
     spending_proposal:
@@ -248,12 +249,23 @@ fa:
       proposals: طرح های پیشنهادی
       comments: توضیحات
       proposal_votes: پیشنهادات رای دهی
+      debate_votes: رای در مناظره
+      comment_votes: رای در نظر
       votes: کل رای
+      verified_users: کاربران تایید شده
       unverified_users: کاربران تایید نشده
+  unauthorized:
+    default: شما مجوز دسترسی به این صفحه را ندارید.
+    manage:
+      all: "شما اجازه انجام عمل '%{action}' در %{subject} را نداشته باشند."
   users:
     direct_messages:
       new:
+        body_label: پیام
+        submit_button: ارسال پیام
+        title: ارسال پیام خصوصی به %{receiver}
         title_label: عنوان
+        verify_account: "حساب کاربری خودراتایید کنید\n"
         authenticate: شما باید %{signin} یا %{signup} کنید برای ادامه دادن.
         signin: ورود به برنامه
         signup: ثبت نام
