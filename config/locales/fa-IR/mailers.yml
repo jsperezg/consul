@@ -4,20 +4,25 @@ fa:
     comment:
       hi: سلام
       new_comment_by_html: نظر جدید از %{commenter}<b></b> وجود دارد
+      subject: کسی توضیح داده است درباره%{commentable}
       title: نظر جدید
     config:
       manage_email_subscriptions: برای جلوگیری از دریافت ایمیل ها، تنظیمات را تغيير دهيد.
     email_verification:
       click_here_to_verify: این لینک
+      instructions_2_html: این ایمیل حساب شما را با <b>%{document_type}%{document_number}</b>تأیید میکند. اگر این به شما تعلق ندارد، لطفا روی لینک قبلی کلیک نکنید و این ایمیل را نادیده بگیرید.
+      instructions_html: برای تکمیل تایید حساب کاربر در پورتال دولت باز شما باید %{verification_link} را کلیک کنید.
       subject: تایید ایمیل
       thanks: با تشكر فراوان.
       title: با استفاده از لینک زیر، حساب خود را تاييد كنيد.
     reply:
       hi: سلام
+      new_reply_by_html: پاسخ جدید از%{commenter}<b></b> برای نظر شما وجود دارد.
       subject: کسی به نظر شما پاسخ داده است.
       title: ' پاسخ جديد به نظر شما'
     unfeasible_spending_proposal:
       hi: "کاربر گرامی"
+      new_html: "برای همه اینها، از شما دعوت میکنیم که یک  <strong>پیشنویس جدید </ strong> را که با شرایط این روند تنظیم شده است، تدوین کنید. شما می توانید این را با دنبال کردن این لینک انجام دهید:%{url}."
       new_href: "پروژه جدید سرمایه گذاری"
       sincerely: "با تشکر."
     proposal_notification_digest:
@@ -48,3 +53,4 @@ fa:
     budget_investment_unselected:
       hi: "کاربر گرامی"
       sincerely: "با تشكر."
+      signatory: "بخش مشارکت عمومی"
