@@ -3,6 +3,7 @@ fa:
     no_reply: "این پیام از آدرس ایمیلي فرستاده شده است که پاسخ ها را قبول نمي كند."
     comment:
       hi: سلام
+      new_comment_by_html: نظر جدید از %{commenter}<b></b> وجود دارد
       title: نظر جدید
     config:
       manage_email_subscriptions: برای جلوگیری از دریافت ایمیل ها، تنظیمات را تغيير دهيد.
